@@ -1,14 +1,19 @@
-/* .29_27 { 
-	overflow:hidden;
-} */
+
+body {
+	background-color: black;
+	width: 1920px;
+	height: 1080px;
+	max-width: 100%;
+	max-height: 100%; 
+	margin-top: -100px;
+	/* margin-right: -100px; */
+    margin-left: -160px; 
+	scale: 75%;
+
+  }
 .e29_27 { 
 	background-color:rgba(0, 0, 0, 1);
-	width:1920px;
-	height:1080px;
-	margin:-8px;
-	min-width: 1920px; 
-	max-height: 1080px;
-	 height:100% ;width:100%; margin:0; padding:0;scale:100%
+
 
 }
 .e29_28 { 
@@ -181,7 +186,7 @@
 	top:770px;
 	font-family:Montserrat Alternates;
 	text-align:left;
-	font-size:20px;
+	font-size:40px;
 	letter-spacing:0;
 }
 .e29_41 { 
@@ -227,4 +232,22 @@
     width: 500;
     background-color: rgb(182, 182, 182);
 	font-size: 33px;
+}
+.button {
+    background-color: white;
+    color: black;
+	height: 50px;
+	width: 277px;
+    transition-duration: 0.4s;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+	font-size:22px;
+	font-family:Montserrat Alternates;
+	
+}
+.button:hover{
+	color:white;
+	background-color: black ;
 }
