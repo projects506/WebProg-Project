@@ -1,12 +1,16 @@
-.22_14 { 
-	overflow:hidden;
+
+body{
+	background-color: black;
+    /* height: 1080px; */
+    /* width: 1920px; */
+    /* max-width: 100%;
+    max-height: 100%; */
+    scale: 79%;
+    margin-top: -100px;
+    margin-left: -200px;
+
 }
-.e22_14 { 
-	background-color:rgba(0, 0, 0, 1);
-	width:1920px;
-	height:1080px;
-	position:absolute;
-}
+
 .e22_16 { 
 	background-image:linear-gradient(0deg, rgba(248.0000004172325, 248.0000004172325, 248.0000004172325, 1) 0%,rgba(187.00000405311584, 186.2208330631256, 186.2208330631256, 1) 100%) ;
 	-webkit-background-clip:text;
@@ -98,7 +102,13 @@
 	letter-spacing:0;
 }
 .e27_72 { 
-	color:rgba(187.00000405311584, 186.2208330631256, 186.2208330631256, 1);
+	background-image:linear-gradient(0deg, rgba(248.0000004172325, 248.0000004172325, 248.0000004172325, 1) 0%,rgba(187.00000405311584, 186.2208330631256, 186.2208330631256, 1) 100%) ;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	-moz-background-clip:text;
+	-moz-text-fill-color:transparent;
+	-ms-background-clip:text;
+	-ms-text-fill-color:transparent;
 	width:109px;
 	height:37px;
 	position:absolute;
@@ -109,18 +119,23 @@
 	font-size:30px;
 	letter-spacing:0;
 }
-.e22_27 { 
+.e22_27:hover{
+	color:white;
+	text-decoration: underline;
+}
+.e22_27 { 	
 	width:127px;
 	height:107px;
 	position:absolute;
 	left:5px;
 	top:16px;
 	background-image:url(images/picsart_23_06_13_15_25_08_573_1.png);
-	background-repeat:no-repeat;
+	
 	background-size:cover;
 }
+
 .e22_28 { 
-	background-color:rgba(255, 255, 255, 1);
+	background-color:transparent;
 	width:469px;
 	height:61px;
 	position:absolute;
@@ -136,10 +151,10 @@
 	width:369px;
 	height:37px;
 	position:absolute;
-	left:50px;
-	top:12px;
+	left:6px;
+	top:-42px;
 	font-family:Montserrat Alternates;
-	text-align:left;
+	text-align:strat	;
 	font-size:30px;
 	letter-spacing:  -2px;
 }
@@ -161,18 +176,45 @@
 .button {
 	background-color: white;
 	color: black;
+	width: 387px;
+	height:38px;
+	position:absolute;
+	left:10px;
 	transition-duration: 0.4s;
 	border-top-left-radius:25px;
 	border-top-right-radius:25px;
 	border-bottom-left-radius:25px;
 	border-bottom-right-radius:25px;
+	text-decoration: none;
   }
   
   .button:hover {
-	background-color: #000000; /* Green */
+	background-color: #454545; /* Green */
 	color: white;
   }
- a {
-	color: #FFFFFF;
-	text-decoration: none;
+
+@keyframes fadeIn {
+	from {
+	  opacity: 0;
+	}
+	to {
+	  opacity: 1;
+	}
   }
+  
+  .e22_16,
+  .e22_18,
+  .e22_19,
+  .e22_20,
+  .e22_25,
+  .e27_72,
+  .e22_28,
+  .e22_37,
+  .e22_27,
+  .button {
+	animation: fadeIn 1.5s ease-in-out forwards;
+  }
+  
+  
+
+  

@@ -1,18 +1,17 @@
 
 body {
 	background-color: black;
-	width: 1920px;
-	height: 1080px;
-	max-width: 100%;
-	max-height: 100%; 
 	margin-top: -100px;
-	/* margin-right: -100px; */
-    margin-left: -160px; 
-	scale: 75%;
+    margin-left: -180px; 
+	scale: 76%;
+	animation: fadeIn 1.5s ease-in-out;
+
 
   }
 .e29_27 { 
 	background-color:rgba(0, 0, 0, 1);
+	animation: fadeIn 1.5s ease-in-out;
+
 
 
 }
@@ -27,6 +26,8 @@ body {
 	background-size:cover;
 	filter: blur(3px);
 	-webkit-filter: blur(3px);
+	animation: fadeIn 1.5s ease-in-out;
+
 }
 .e29_29 { 
 	background-image:linear-gradient(0deg, rgba(248.0000004172325, 248.0000004172325, 248.0000004172325, 1) 0%,rgba(187.00000405311584, 186.2208330631256, 186.2208330631256, 1) 100%) ;
@@ -45,6 +46,8 @@ body {
 	text-align:left;
 	font-size:36px;
 	letter-spacing:0;
+	animation: fadeIn 1.5s ease-in-out;
+
 }
 .e29_30 { 
 	background-image:linear-gradient(0deg, rgba(248.0000004172325, 248.0000004172325, 248.0000004172325, 1) 0%,rgba(187.00000405311584, 186.2208330631256, 186.2208330631256, 1) 100%) ;
@@ -63,6 +66,8 @@ body {
 	text-align:left;
 	font-size:30px;
 	letter-spacing:0;
+	animation: fadeIn 1.5s ease-in-out;
+
 }
 .e29_31 { 
 	width:127px;
@@ -73,7 +78,8 @@ body {
 	background-image:url(images/picsart_23_06_13_15_25_08_573_1.png);
 	background-repeat:no-repeat;
 	background-size:cover;
-	
+	animation: fadeIn 1.5s ease-in-out;
+
 }
 .e29_32 { 
 	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
@@ -86,6 +92,8 @@ body {
 	border-top-right-radius:114px;
 	border-bottom-left-radius:114px;
 	border-bottom-right-radius:114px;
+	animation: fadeIn 1.5s ease-in-out;
+
 }
 .e29_33 { 
 	width:127px;
@@ -96,6 +104,8 @@ body {
 	background-image:url(images/picsart_23_06_13_15_25_08_573_2.png);
 	background-repeat:no-repeat;
 	background-size:cover;
+	animation: fadeIn 1.5s ease-in-out;
+
 	
 }
 .e29_34 { 
@@ -105,6 +115,8 @@ body {
 	position:absolute;
 	left:701px;
 	top:500px;
+	animation: fadeIn 1.5s ease-in-out;
+
 }
 .e29_44 { 
 	background-color:rgba(0, 0, 0, 0.20000000298023224);
@@ -113,6 +125,8 @@ body {
 	position:absolute;
 	left:698px;
 	top:653px;
+	animation: fadeIn 1.5s ease-in-out;
+
 }
 .e29_36 { 
 	color:rgba(0, 0, 0, 1);
@@ -125,6 +139,8 @@ body {
 	text-align:left;
 	font-size:30px;
 	letter-spacing:0;
+	animation: fadeIn 1.5s ease-in-out;
+
 }
 .e29_37 { 
 	color:rgb(0, 0, 0);
@@ -137,6 +153,8 @@ body {
 	text-align:left;
 	font-size:30px;
 	letter-spacing:0;
+	animation: fadeIn 1.5s ease-in-out;
+
 }
 .e29_45 { 
 	color:rgb(0, 0, 0);
@@ -149,6 +167,8 @@ body {
 	text-align:left;
 	font-size:30px;
 	letter-spacing:0;
+	animation: fadeIn 1.5s ease-in-out;
+
 }
 .e29_43 { 
 	width:500px;
@@ -156,6 +176,8 @@ body {
 	position:absolute;
 	left:701px;
 	top:350px;
+	animation: fadeIn 1.5s ease-in-out;
+
 }
 .e29_38 { 
 	background-color:rgb(0, 0, 0);
@@ -164,6 +186,8 @@ body {
 	position:absolute;
 	left:0px;
 	top:0px;
+	animation: fadeIn 1.5s ease-in-out;
+
 }
 .e29_39 { 
 	color:rgba(0, 0, 0, 1);
@@ -176,6 +200,8 @@ body {
 	text-align:left;
 	font-size:20px;
 	letter-spacing:0;
+	animation: fadeIn 1.5s ease-in-out;
+
 }
 .e29_49 { 
 	color:rgba(0, 0, 0, 1);
@@ -188,6 +214,8 @@ body {
 	text-align:left;
 	font-size:40px;
 	letter-spacing:0;
+	animation: fadeIn 1.5s ease-in-out;
+
 }
 .e29_41 { 
 	background-image:linear-gradient(0deg, rgba(248.0000004172325, 248.0000004172325, 248.0000004172325, 1) 0%,rgba(187.00000405311584, 186.2208330631256, 186.2208330631256, 1) 100%) ;
@@ -206,6 +234,8 @@ body {
 	text-align:left;
 	font-size:30px;
 	letter-spacing:0;
+	animation: fadeIn 1.5s ease-in-out;
+
 }
 .e29_42 { 
 	background-image:linear-gradient(0deg, rgba(248.0000004172325, 248.0000004172325, 248.0000004172325, 1) 0%,rgba(187.00000405311584, 186.2208330631256, 186.2208330631256, 1) 100%) ;
@@ -224,6 +254,8 @@ body {
 	text-align:left;
 	font-size:30px;
 	letter-spacing:0;
+	animation: fadeIn 1.5s ease-in-out;
+
 }
 
 .input{
@@ -232,6 +264,8 @@ body {
     width: 500;
     background-color: rgb(182, 182, 182);
 	font-size: 33px;
+	animation: fadeIn 1.5s ease-in-out;
+
 }
 .button {
     background-color: white;
@@ -245,9 +279,18 @@ body {
     border-bottom-right-radius: 25px;
 	font-size:22px;
 	font-family:Montserrat Alternates;
+	animation: fadeIn 1.5s ease-in-out;
 	
 }
 .button:hover{
 	color:white;
 	background-color: black ;
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
