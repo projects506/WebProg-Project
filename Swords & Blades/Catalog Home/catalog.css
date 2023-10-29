@@ -1,0 +1,195 @@
+body{
+    /* background-color:black; */
+    background-image:url(images/image_7.png);
+    animation: fadeIn 1.4s;
+}                                 
+.asianDisplay{
+    transform: rotate(0.00420227471307861deg);
+    color:rgba(0, 0, 0, 1);
+    width:133.72503662109375px;
+    height:37px;
+    position:absolute;
+    left:230.002686px;
+    top:180px;
+    font-family:Montserrat Alternates;
+    text-align:left;
+    font-size:30px;
+    letter-spacing:0;
+    animation: fadeIn 1.5s ease-in-out;
+}
+.Katana{
+	width:221px;
+	height: 409px;
+	position:absolute;
+	scale: 135%;
+	left: 191px;
+	top:198px;
+	border-top-left-radius:98px;
+	border-top-right-radius:98px;
+	border-bottom-left-radius:98px;
+	border-bottom-right-radius:98px;
+	background-image:url(images/image_5.png);
+	
+	animation: fadeIn 1.5s ease-in-out;
+}    
+.Longsword {
+	width:221px;
+	height:409px;
+	position:absolute;
+	scale:135%;
+	left: 677px;
+	top:198px;
+	border-top-left-radius:108px;
+	border-top-right-radius:108px;
+	border-bottom-left-radius:108px;
+	border-bottom-right-radius:108px;
+	background-image:url(images/image_3.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	animation: fadeIn 1.5s ease-in-out;
+}
+.europeanDisplay {
+	color:rgb(255, 255, 255);
+	width:133.72503662109375px;
+	height:37px;
+	position:absolute;
+	left: 656.002686px;
+	top:180px;
+	font-family:Montserrat Alternates;
+	text-align:left;
+	font-size:30px;
+	letter-spacing:0;
+	animation: fadeIn 1.5s ease-in-out;
+	scale: 90%;
+}    
+.dagger{ 
+	color:rgb(255, 255, 255);
+	width:139px;
+	height:87px;
+	position:absolute;
+	left:1261px;
+	top:135px;
+	font-family:Montserrat Alternates;
+	text-align:left;
+	font-size:26px;
+	letter-spacing:0;
+	animation: fadeIn 1.5s ease-in-out;
+} 
+.daggerDisplay { 
+	width:409px;
+	height:221px;
+	scale:135%;
+	position:absolute;
+	left: 1098px;
+    top: 293px;
+	border-top-left-radius:108px;
+	border-top-right-radius:108px;
+	border-bottom-left-radius:108px;
+	border-bottom-right-radius:108px;
+	background-image:url(images/image_6.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	animation: fadeIn 1.5s ease-in-out;
+	-webkit-transform:rotate(270deg); 
+	-moz-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	transform: rotate(270deg);   
+}                             
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+button {
+    background-color: white;
+    color: black;
+	height: 36px;
+    width: 177px;
+	font-size:22px;
+	font-family: Montserrat Alternates;
+    transition-duration: 0.4s;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+	animation: fadeIn 1.5s ease-in-out;
+	
+}
+button:hover{
+	color:white;
+	background-color: black ;
+}
+.sign_in { 
+	color:rgba(187.00000405311584, 186.2208330631256, 186.2208330631256, 1);
+	width:109px;
+	height:37px;
+	position:absolute;
+	left:1200px;
+	top:30px;
+	font-family:Montserrat Alternates;
+	text-align:left;
+	font-size:30px;
+	letter-spacing:0;
+	animation: fadeIn 1.5s ease-in-out;
+}
+.about_us { 
+	background-image:linear-gradient(0deg, rgba(248.0000004172325, 248.0000004172325, 248.0000004172325, 1) 0%,rgba(187.00000405311584, 186.2208330631256, 186.2208330631256, 1) 100%) ;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	-moz-background-clip:text;
+	-moz-text-fill-color:transparent;
+	-ms-background-clip:text;
+	-ms-text-fill-color:transparent;
+	width:146px;
+	height:37px;
+	position:absolute;
+	left: 1350px;
+	top:30px;
+	font-family:Montserrat Alternates;
+	text-align:left;
+	font-size:30px;
+	letter-spacing:0;
+	animation: fadeIn 1.5s ease-in-out;
+}
+.catalog { 
+	background-image:linear-gradient(0deg, rgba(248.0000004172325, 248.0000004172325, 248.0000004172325, 1) 0%,rgba(187.00000405311584, 186.2208330631256, 186.2208330631256, 1) 100%) ;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	-moz-background-clip:text;
+	-moz-text-fill-color:transparent;
+	-ms-background-clip:text;
+	-ms-text-fill-color:transparent;
+	width:126px;
+	height:37px;
+	position:absolute;
+	left:1025px;
+	top:30px;
+	font-family:Montserrat Alternates;
+	text-align:left;
+	font-size:30px;
+	letter-spacing:0;
+	animation: fadeIn 1.5s ease-in-out;
+}
+.swords_title {
+	background-image:linear-gradient(0deg, rgba(248.0000004172325, 248.0000004172325, 248.0000004172325, 1) 0%,rgba(187.00000405311584, 186.2208330631256, 186.2208330631256, 1) 100%) ;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	-moz-background-clip:text;
+	-moz-text-fill-color:transparent;
+	-ms-background-clip:text;
+	-ms-text-fill-color:transparent;
+	width:379px;
+	height:44px;
+	position:absolute;
+	left:132px;
+	top:30px;
+	font-family:Montserrat Alternates;
+	text-align:left;
+	font-size:36px;
+	letter-spacing:0;
+	animation: fadeIn 1.5s ease-in-out;
+}
