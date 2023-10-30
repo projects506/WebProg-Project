@@ -1,0 +1,190 @@
+.image-7-icon {
+  border-radius: var(--br-8xl);
+  object-fit: cover;
+  width: 1995.2px;
+  height: 1190px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.sign-in6 {
+  color: var(--color-silver);
+  position: absolute;
+  top: 60px;
+  left: 1573px;
+}
+
+.longsword {
+  transform-origin: 0 0;
+  width: 3px;
+  display: inline-block;
+  position: absolute;
+  top: 356px;
+  left: 113px;
+  transform: rotate(180deg);
+}
+
+.image-3-icon {
+  border-radius: var(--br-89xl);
+  object-fit: cover;
+  width: 441px;
+  height: 818px;
+  position: absolute;
+  top: 212px;
+  left: 132px;
+}
+
+.about-us7, .swords-and-blades7 {
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  position: absolute;
+}
+
+.swords-and-blades7 {
+  font-size: var(--font-size-17xl);
+  background: linear-gradient(#f8f8f8, #bbbaba);
+  top: 48px;
+  left: 132px;
+}
+
+.about-us7 {
+  background: linear-gradient(#f8f8f8d9, #bbbabad9);
+  top: 60px;
+  left: 1731px;
+}
+
+.picsart-23-06-13-15-25-08-573-icon9 {
+  object-fit: cover;
+  width: 127px;
+  height: 107px;
+  position: absolute;
+  top: 16px;
+  left: 5px;
+}
+
+.image-5-icon, .image-6-icon {
+  object-fit: cover;
+  width: 441px;
+  height: 818px;
+  position: absolute;
+  top: 198px;
+}
+
+.image-5-icon {
+  border-radius: 158px;
+  left: 753px;
+}
+
+.image-6-icon {
+  border-radius: var(--br-89xl);
+  left: 1363px;
+}
+
+.catalog-home-child {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  width: 203px;
+  height: 38px;
+  position: absolute;
+  top: 356px;
+  left: 102px;
+  overflow: hidden;
+}
+
+.longsword1 {
+  position: absolute;
+  top: 356px;
+  left: 113px;
+}
+
+.catalog-home-item {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  width: 163px;
+  height: 39px;
+  position: absolute;
+  top: 327px;
+  left: 783px;
+  overflow: hidden;
+}
+
+.katanas {
+  width: 133.7px;
+  display: inline-block;
+  position: absolute;
+  top: 327px;
+  left: 800px;
+}
+
+.catalog-home-inner {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  width: 144px;
+  height: 34px;
+  position: absolute;
+  top: 347px;
+  left: 1630px;
+  overflow: hidden;
+}
+
+.daggers1 {
+  width: 139px;
+  height: 87px;
+  font-size: 26px;
+  display: inline-block;
+  position: absolute;
+  top: 347px;
+  left: 1641px;
+}
+
+.explore-european {
+  letter-spacing: -.05em;
+  position: relative;
+}
+
+.explore-asian-wrapper, .explore-daggers-wrapper, .explore-european-wrapper {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  padding: var(--padding-xs) var(--padding-31xl);
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  position: absolute;
+  top: 1030px;
+  left: 177px;
+  overflow: hidden;
+}
+
+.explore-asian-wrapper, .explore-daggers-wrapper {
+  left: 809px;
+}
+
+.explore-daggers-wrapper {
+  left: 1433px;
+}
+
+.catalog6 {
+  background: linear-gradient(#f8f8f8d9, #bbbabad9);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-decoration: underline;
+  position: absolute;
+  top: 60px;
+  left: 1398px;
+}
+
+.catalog-home {
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat-alternates);
+  background: linear-gradient(#0003, #0003), #242323;
+  width: 100%;
+  height: 1147px;
+  position: relative;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=CatalogHome.5b19bbdd.css.map */

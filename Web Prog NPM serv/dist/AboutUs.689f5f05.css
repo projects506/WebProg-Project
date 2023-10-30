@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  --font-montserrat-alternates: "Montserrat Alternates";
+  --font-inter: Inter;
+  --font-size-11xl: 30px;
+  --font-size-17xl: 36px;
+  --font-size-xl: 20px;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-silver: #bbbaba;
+  --color-gainsboro: #d9d9d9;
+  --color-darkslategray-100: #413f3ff5;
+  --color-darkslategray-200: #413f3fa3;
+  --color-gray: #0003;
+  --padding-xs: 12px;
+  --padding-31xl: 50px;
+  --br-6xl: 25px;
+  --br-81xl: 100px;
+  --br-236xl: 255px;
+  --br-8xl: 27px;
+  --br-95xl: 114px;
+  --br-172xl: 191px;
+  --br-89xl: 108px;
+}
+
+/*# sourceMappingURL=AboutUs.689f5f05.css.map */

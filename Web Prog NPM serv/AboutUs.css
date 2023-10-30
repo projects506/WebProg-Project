@@ -1,0 +1,36 @@
+.swords-and-blades2 {
+  position: absolute;
+  top: 48px;
+  left: 132px;
+  background: linear-gradient(180deg, #f8f8f8, #bbbaba);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.image-1-icon1,
+.picsart-23-06-13-15-25-08-573-icon2 {
+  position: absolute;
+  top: 16px;
+  left: 5px;
+  width: 127px;
+  height: 107px;
+  object-fit: cover;
+}
+.image-1-icon1 {
+  top: 123px;
+  left: 53px;
+  border-radius: 3px;
+  width: 1815px;
+  height: 911px;
+  opacity: 0.4;
+  mix-blend-mode: lighten;
+}
+.about-us2 {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 1102px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-montserrat-alternates);
+}

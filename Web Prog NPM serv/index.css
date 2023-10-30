@@ -1,0 +1,117 @@
+.catalog,
+.swords-and-blades {
+  position: absolute;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.swords-and-blades {
+  top: 48px;
+  left: 132px;
+  font-size: var(--font-size-17xl);
+  background: linear-gradient(180deg, #f8f8f8, #bbbaba);
+}
+.catalog {
+  top: 60px;
+  left: 1397px;
+  background: linear-gradient(
+    180deg,
+    rgba(248, 248, 248, 0.85),
+    rgba(187, 186, 186, 0.85)
+  );
+  cursor: pointer;
+}
+.become-a-real {
+  margin: 0;
+}
+.become-a-real-container,
+.explore-the-wide-container {
+  position: absolute;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+.become-a-real-container {
+  top: 339px;
+  left: 146px;
+  font-size: 64px;
+  background: linear-gradient(180deg, #f8f8f8, #bbbaba);
+  width: 781px;
+}
+.explore-the-wide-container {
+  top: 430px;
+  left: 162px;
+  font-size: 24px;
+  background: linear-gradient(
+    180deg,
+    rgba(248, 248, 248, 0.85),
+    rgba(187, 186, 186, 0.85)
+  );
+  width: 534px;
+}
+.about-us,
+.sign-in {
+  position: absolute;
+  top: 60px;
+  cursor: pointer;
+}
+.about-us {
+  left: 1731px;
+  background: linear-gradient(
+    180deg,
+    rgba(248, 248, 248, 0.85),
+    rgba(187, 186, 186, 0.85)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sign-in {
+  left: 1573px;
+}
+.picsart-23-06-13-15-25-08-573-icon {
+  position: absolute;
+  top: 16px;
+  left: 5px;
+  width: 127px;
+  height: 107px;
+  object-fit: cover;
+}
+.explore-the-world {
+  position: relative;
+  letter-spacing: -0.05em;
+}
+.explore-the-world-of-steel-wrapper {
+  position: absolute;
+  top: 736px;
+  left: 150px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-31xl);
+  cursor: pointer;
+  color: var(--color-black);
+}
+.image-1-icon {
+  position: absolute;
+  top: 124px;
+  left: 1018px;
+  border-radius: 281px;
+  width: 884px;
+  height: 831px;
+  object-fit: cover;
+  opacity: 0.67;
+}
+.homepage {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-silver);
+  font-family: var(--font-montserrat-alternates);
+}

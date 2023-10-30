@@ -1,0 +1,149 @@
+.image-8-icon3 {
+  object-fit: cover;
+  width: 1737px;
+  height: 879px;
+  position: absolute;
+  top: 100px;
+  left: 79px;
+}
+
+.about-us5, .swords-and-blades5 {
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  position: absolute;
+}
+
+.swords-and-blades5 {
+  font-size: var(--font-size-17xl);
+  background: linear-gradient(#f8f8f8, #bbbaba);
+  top: 48px;
+  left: 132px;
+}
+
+.about-us5 {
+  background: linear-gradient(#f8f8f8d9, #bbbabad9);
+  top: 57px;
+  left: 1734px;
+}
+
+.picsart-23-06-13-15-25-08-573-icon6 {
+  object-fit: cover;
+  width: 127px;
+  height: 107px;
+  position: absolute;
+  top: 16px;
+  left: 5px;
+}
+
+.sign-in-page-child {
+  border-radius: var(--br-95xl);
+  background-color: var(--color-gainsboro);
+  width: 599px;
+  height: 719px;
+  position: absolute;
+  top: 182px;
+  left: 694px;
+}
+
+.picsart-23-06-13-15-25-08-573-icon7 {
+  object-fit: cover;
+  width: 127px;
+  height: 107px;
+  position: absolute;
+  top: 205px;
+  left: 930px;
+}
+
+.sign-in-page-item {
+  background-color: var(--color-gray);
+  width: 500px;
+  height: 80px;
+  position: absolute;
+  top: 561px;
+  left: 747px;
+}
+
+.sign-in-page-inner {
+  background-color: var(--color-gainsboro);
+  width: 446px;
+  height: 170px;
+  position: absolute;
+  top: 277px;
+  left: 754px;
+}
+
+.password1, .username1 {
+  width: 323px;
+  height: 95px;
+  display: inline-block;
+  position: absolute;
+  top: 352px;
+  left: 747px;
+}
+
+.password1 {
+  background: linear-gradient(#0003, #0003), #000;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  width: 160px;
+  height: 87px;
+  top: 500px;
+  left: 749px;
+}
+
+.sign-in-page-child1 {
+  background-color: var(--color-gray);
+  width: 500px;
+  height: 80px;
+  position: absolute;
+  top: 400px;
+  left: 747px;
+}
+
+.create-account, .forgot-password {
+  font-size: var(--font-size-xl);
+  position: absolute;
+  top: 649px;
+  left: 919px;
+}
+
+.forgot-password {
+  width: 218px;
+  height: 31px;
+  display: inline-block;
+  top: 681px;
+  left: 902px;
+}
+
+.catalog4, .sign-in4 {
+  position: absolute;
+  top: 57px;
+}
+
+.catalog4 {
+  background: linear-gradient(#f8f8f8d9, #bbbabad9);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  left: 1401px;
+}
+
+.sign-in4 {
+  color: var(--color-silver);
+  text-decoration: underline;
+  left: 1576px;
+}
+
+.sign-in-page {
+  background-color: var(--color-black);
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat-alternates);
+  width: 100%;
+  height: 1080px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 4px #00000040;
+}
+
+/*# sourceMappingURL=SignInPage.9905bd9e.css.map */

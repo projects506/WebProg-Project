@@ -1,0 +1,244 @@
+.image-8-icon4, .image-9-icon2 {
+  object-fit: cover;
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image-9-icon2 {
+  top: 1080px;
+}
+
+.european-child {
+  border-radius: var(--br-172xl);
+  background-color: var(--color-darkslategray-100);
+  width: 1422.2px;
+  height: 800px;
+  position: absolute;
+  top: 1220px;
+  left: 219px;
+}
+
+.designed-around10, .european-item {
+  position: absolute;
+  top: 1730px;
+  left: 780px;
+}
+
+.european-item {
+  border-radius: var(--br-81xl);
+  background-color: var(--color-gainsboro);
+  mix-blend-mode: linear-burn;
+  width: 318px;
+  height: 624px;
+  top: 1308px;
+  left: 348px;
+}
+
+.image-10-icon2 {
+  object-fit: cover;
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+  top: 2160px;
+  left: 0;
+}
+
+.european-inner {
+  border-radius: var(--br-172xl);
+  background-color: var(--color-darkslategray-100);
+  width: 1422.2px;
+  height: 800px;
+  position: absolute;
+  top: 2300px;
+  left: 249px;
+}
+
+.image-12-icon2 {
+  object-fit: cover;
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+  top: 4320px;
+  left: 0;
+}
+
+.european-child1 {
+  border-radius: var(--br-172xl);
+  background-color: var(--color-darkslategray-100);
+  width: 1422.2px;
+  height: 800px;
+  position: absolute;
+  top: 4460px;
+  left: 249px;
+}
+
+.image-11-icon2 {
+  object-fit: cover;
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+  top: 3240px;
+  left: 0;
+}
+
+.european-child2 {
+  border-radius: var(--br-172xl);
+  background-color: var(--color-darkslategray-100);
+  width: 1422.2px;
+  height: 800px;
+  position: absolute;
+  top: 3380px;
+  left: 249px;
+}
+
+.about-us6, .catalog5, .swords-and-blades6 {
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  position: absolute;
+}
+
+.swords-and-blades6 {
+  background: linear-gradient(#f8f8f8, #bbbaba);
+  top: 32px;
+  left: 127px;
+}
+
+.about-us6, .catalog5 {
+  font-size: var(--font-size-11xl);
+  background: linear-gradient(#f8f8f8d9, #bbbabad9);
+  top: 44px;
+}
+
+.catalog5 {
+  width: 126px;
+  height: 19px;
+  text-decoration: underline;
+  display: inline-block;
+  left: 1401px;
+}
+
+.about-us6 {
+  left: 1726px;
+}
+
+.picsart-23-06-13-15-25-08-573-icon8 {
+  object-fit: cover;
+  width: 127px;
+  height: 107px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.sign-in5 {
+  font-size: var(--font-size-11xl);
+  color: var(--color-silver);
+  position: absolute;
+  top: 44px;
+  left: 1572px;
+}
+
+.european-child3 {
+  border-radius: var(--br-172xl);
+  background-color: var(--color-darkslategray-100);
+  width: 1422.2px;
+  height: 800px;
+  position: absolute;
+  top: 140px;
+  left: 249px;
+}
+
+.designed-around11, .mass-1-container {
+  position: absolute;
+  top: 630px;
+  left: 793px;
+}
+
+.mass-1-container {
+  white-space: pre-wrap;
+  top: 674px;
+}
+
+.image-16-icon {
+  object-fit: cover;
+  border-radius: 122px;
+  width: 318px;
+  height: 624px;
+  position: absolute;
+  top: 228px;
+  left: 348px;
+}
+
+.a-rapier-is {
+  width: 734px;
+  height: 348px;
+  display: inline-block;
+  position: absolute;
+  top: 254px;
+  left: 793px;
+}
+
+.european-child4, .european-child5 {
+  border-radius: var(--br-81xl);
+  background-color: var(--color-gainsboro);
+  mix-blend-mode: linear-burn;
+  width: 318px;
+  height: 624px;
+  position: absolute;
+  top: 2388px;
+  left: 348px;
+}
+
+.european-child5 {
+  top: 3515px;
+}
+
+.image-removebg-preview-1-icon {
+  object-fit: cover;
+  width: 430px;
+  height: 712px;
+  position: absolute;
+  top: 1247px;
+  left: 265px;
+}
+
+.the-longsword-type {
+  font-family: var(--font-inter);
+  width: 747px;
+  height: 353px;
+  display: inline-block;
+  position: absolute;
+  top: 1329px;
+  left: 780px;
+}
+
+.mass-avg {
+  margin: 0;
+}
+
+.mass-avg-container {
+  font-family: var(--font-inter);
+  width: 664px;
+  height: 272px;
+  display: inline-block;
+  position: absolute;
+  top: 1785px;
+  left: 780px;
+}
+
+.european {
+  background-color: var(--color-black);
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat-alternates);
+  width: 100%;
+  height: 5400px;
+  position: relative;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=European.1e8527a2.css.map */

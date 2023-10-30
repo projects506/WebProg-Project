@@ -1,0 +1,224 @@
+.image-8-icon4,
+.image-9-icon2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+  object-fit: cover;
+}
+.image-9-icon2 {
+  top: 1080px;
+}
+.european-child {
+  position: absolute;
+  top: 1220px;
+  left: 219px;
+  border-radius: var(--br-172xl);
+  background-color: var(--color-darkslategray-100);
+  width: 1422.2px;
+  height: 800px;
+}
+.designed-around10,
+.european-item {
+  position: absolute;
+  top: 1730px;
+  left: 780px;
+}
+.european-item {
+  top: 1308px;
+  left: 348px;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-gainsboro);
+  width: 318px;
+  height: 624px;
+  mix-blend-mode: linear-burn;
+}
+.image-10-icon2 {
+  position: absolute;
+  top: 2160px;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+  object-fit: cover;
+}
+.european-inner {
+  position: absolute;
+  top: 2300px;
+  left: 249px;
+  border-radius: var(--br-172xl);
+  background-color: var(--color-darkslategray-100);
+  width: 1422.2px;
+  height: 800px;
+}
+.image-12-icon2 {
+  position: absolute;
+  top: 4320px;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+  object-fit: cover;
+}
+.european-child1 {
+  position: absolute;
+  top: 4460px;
+  left: 249px;
+  border-radius: var(--br-172xl);
+  background-color: var(--color-darkslategray-100);
+  width: 1422.2px;
+  height: 800px;
+}
+.image-11-icon2 {
+  position: absolute;
+  top: 3240px;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+  object-fit: cover;
+}
+.european-child2 {
+  position: absolute;
+  top: 3380px;
+  left: 249px;
+  border-radius: var(--br-172xl);
+  background-color: var(--color-darkslategray-100);
+  width: 1422.2px;
+  height: 800px;
+}
+.about-us6,
+.catalog5,
+.swords-and-blades6 {
+  position: absolute;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.swords-and-blades6 {
+  top: 32px;
+  left: 127px;
+  background: linear-gradient(180deg, #f8f8f8, #bbbaba);
+}
+.about-us6,
+.catalog5 {
+  top: 44px;
+  font-size: var(--font-size-11xl);
+  background: linear-gradient(
+    180deg,
+    rgba(248, 248, 248, 0.85),
+    rgba(187, 186, 186, 0.85)
+  );
+}
+.catalog5 {
+  left: 1401px;
+  text-decoration: underline;
+  display: inline-block;
+  width: 126px;
+  height: 19px;
+}
+.about-us6 {
+  left: 1726px;
+}
+.picsart-23-06-13-15-25-08-573-icon8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 127px;
+  height: 107px;
+  object-fit: cover;
+}
+.sign-in5 {
+  position: absolute;
+  top: 44px;
+  left: 1572px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-silver);
+}
+.european-child3 {
+  position: absolute;
+  top: 140px;
+  left: 249px;
+  border-radius: var(--br-172xl);
+  background-color: var(--color-darkslategray-100);
+  width: 1422.2px;
+  height: 800px;
+}
+.designed-around11,
+.mass-1-container {
+  position: absolute;
+  top: 630px;
+  left: 793px;
+}
+.mass-1-container {
+  top: 674px;
+  white-space: pre-wrap;
+}
+.image-16-icon {
+  position: absolute;
+  top: 228px;
+  left: 348px;
+  border-radius: 122px;
+  width: 318px;
+  height: 624px;
+  object-fit: cover;
+}
+.a-rapier-is {
+  position: absolute;
+  top: 254px;
+  left: 793px;
+  display: inline-block;
+  width: 734px;
+  height: 348px;
+}
+.european-child4,
+.european-child5 {
+  position: absolute;
+  top: 2388px;
+  left: 348px;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-gainsboro);
+  width: 318px;
+  height: 624px;
+  mix-blend-mode: linear-burn;
+}
+.european-child5 {
+  top: 3515px;
+}
+.image-removebg-preview-1-icon {
+  position: absolute;
+  top: 1247px;
+  left: 265px;
+  width: 430px;
+  height: 712px;
+  object-fit: cover;
+}
+.the-longsword-type {
+  position: absolute;
+  top: 1329px;
+  left: 780px;
+  font-family: var(--font-inter);
+  display: inline-block;
+  width: 747px;
+  height: 353px;
+}
+.mass-avg {
+  margin: 0;
+}
+.mass-avg-container {
+  position: absolute;
+  top: 1785px;
+  left: 780px;
+  font-family: var(--font-inter);
+  display: inline-block;
+  width: 664px;
+  height: 272px;
+}
+.european {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 5400px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat-alternates);
+}

@@ -1,0 +1,287 @@
+.image-8-icon {
+  border-radius: var(--br-8xl);
+  object-fit: cover;
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image-10-icon, .image-11-icon, .image-12-icon, .image-9-wrapper {
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+  top: 1080px;
+  left: 0;
+}
+
+.image-10-icon, .image-11-icon, .image-12-icon {
+  border-radius: var(--br-8xl);
+  object-fit: cover;
+  top: 2141px;
+}
+
+.image-11-icon, .image-12-icon {
+  top: 3231px;
+}
+
+.image-12-icon {
+  top: 4322px;
+}
+
+.daggers-child {
+  border-radius: var(--br-236xl);
+  background-color: var(--color-darkslategray-200);
+  width: 1422px;
+  height: 800px;
+  position: absolute;
+  top: calc(50% + 1736px);
+  left: 249px;
+}
+
+.about-us1, .swords-and-blades1 {
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  position: absolute;
+}
+
+.swords-and-blades1 {
+  background: linear-gradient(#f8f8f8, #bbbaba);
+  top: 32px;
+  left: 127px;
+}
+
+.about-us1 {
+  font-size: var(--font-size-11xl);
+  background: linear-gradient(#f8f8f8d9, #bbbabad9);
+  top: 44px;
+  left: 1726px;
+}
+
+.picsart-23-06-13-15-25-08-573-icon1 {
+  object-fit: cover;
+  width: 127px;
+  height: 107px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.sign-in1 {
+  font-size: var(--font-size-11xl);
+  color: var(--color-silver);
+  position: absolute;
+  top: 44px;
+  left: 1572px;
+}
+
+.daggers-child1, .daggers-inner, .daggers-item, .rectangle-div {
+  border-radius: var(--br-236xl);
+  background-color: var(--color-darkslategray-200);
+  width: 1422px;
+  height: 800px;
+  position: absolute;
+  top: calc(50% - 2560px);
+  left: 249px;
+}
+
+.daggers-child1, .daggers-inner, .rectangle-div {
+  top: calc(50% + 682px);
+}
+
+.daggers-child1, .rectangle-div {
+  top: calc(50% - 339px);
+}
+
+.daggers-child1 {
+  top: calc(50% - 1504px);
+}
+
+.designed-around {
+  margin: 0;
+}
+
+.designed-around-container, .designed-around-container1 {
+  white-space: pre-wrap;
+  width: 578px;
+  height: 226px;
+  display: inline-block;
+  position: absolute;
+  top: 1711px;
+  left: 1056px;
+}
+
+.designed-around-container1 {
+  top: 2916px;
+}
+
+.frame-child, .frame-div {
+  width: 318px;
+  height: 624px;
+  position: absolute;
+}
+
+.frame-child {
+  border-radius: var(--br-81xl);
+  background-color: var(--color-gainsboro);
+  mix-blend-mode: linear-burn;
+  top: 0;
+  left: 0;
+}
+
+.frame-div {
+  top: 1284px;
+  left: 400px;
+}
+
+.daggers-child2, .daggers-child3, .daggers-child4, .daggers-child5 {
+  border-radius: var(--br-81xl);
+  background-color: var(--color-gainsboro);
+  mix-blend-mode: linear-burn;
+  width: 318px;
+  height: 624px;
+  position: absolute;
+  top: 248px;
+  left: 400px;
+}
+
+.daggers-child3, .daggers-child4, .daggers-child5 {
+  top: 2459px;
+}
+
+.daggers-child4, .daggers-child5 {
+  top: 3487px;
+}
+
+.daggers-child5 {
+  top: 4550px;
+}
+
+.image-14-icon, .image-17-icon, .image-19-icon {
+  object-fit: cover;
+  width: 827.4px;
+  height: 967.3px;
+  position: absolute;
+  top: 1147px;
+  left: 91px;
+}
+
+.image-17-icon, .image-19-icon {
+  width: 681.5px;
+  height: 693.7px;
+  top: 3476px;
+  left: 182px;
+}
+
+.image-19-icon {
+  width: 552px;
+  height: 478.8px;
+  top: 2618px;
+  left: 299px;
+}
+
+.the-talwar-is-container {
+  white-space: pre-wrap;
+  width: 921px;
+  height: 442px;
+  display: inline-block;
+  position: absolute;
+  top: 1348px;
+  left: 732px;
+}
+
+.the-karambit-or-container, .the-wakizashi {
+  width: 898px;
+  height: 418px;
+  display: inline-block;
+  position: absolute;
+  top: 2514px;
+  left: 755px;
+}
+
+.the-wakizashi {
+  width: 840px;
+  height: 508px;
+  top: 4581px;
+  left: 780px;
+}
+
+.a-katana-is, .dao-are-single-edged-container {
+  width: 893px;
+  height: 519px;
+  display: inline-block;
+  position: absolute;
+  top: 300px;
+  left: 760px;
+}
+
+.dao-are-single-edged-container {
+  white-space: pre-wrap;
+  width: 867px;
+  height: 464px;
+  top: 3564px;
+  left: 780px;
+}
+
+.designed-around-container2, .designed-around-container3, .designed-around-container4 {
+  white-space: pre-wrap;
+  width: 578px;
+  height: 226px;
+  display: inline-block;
+  position: absolute;
+  top: 646px;
+  left: 1056px;
+}
+
+.designed-around-container3, .designed-around-container4 {
+  top: 3944px;
+}
+
+.designed-around-container4 {
+  top: 5010px;
+}
+
+.catalog1 {
+  font-size: var(--font-size-11xl);
+  background: linear-gradient(#f8f8f8d9, #bbbabad9);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  width: 126px;
+  height: 19px;
+  text-decoration: underline;
+  display: inline-block;
+  position: absolute;
+  top: 44px;
+  left: 1388px;
+}
+
+.image-13-icon, .image-18-icon {
+  object-fit: cover;
+  width: 878px;
+  height: 328px;
+  position: absolute;
+  top: 558px;
+  left: 178px;
+}
+
+.image-18-icon {
+  width: 425.2px;
+  height: 803.9px;
+  top: 4432px;
+  left: 362px;
+}
+
+.daggers {
+  background-color: var(--color-black);
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat-alternates);
+  width: 100%;
+  height: 5400px;
+  position: relative;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=Daggers.923f9938.css.map */

@@ -1,0 +1,153 @@
+.image-8-icon2 {
+  object-fit: cover;
+  width: 1737px;
+  height: 879px;
+  position: absolute;
+  top: 100px;
+  left: 79px;
+}
+
+.about-us4, .swords-and-blades4 {
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  position: absolute;
+}
+
+.swords-and-blades4 {
+  font-size: var(--font-size-17xl);
+  background: linear-gradient(#f8f8f8, #bbbaba);
+  top: 48px;
+  left: 132px;
+}
+
+.about-us4 {
+  background: linear-gradient(#f8f8f8d9, #bbbabad9);
+  top: 57px;
+  left: 1734px;
+}
+
+.picsart-23-06-13-15-25-08-573-icon4 {
+  object-fit: cover;
+  width: 127px;
+  height: 107px;
+  position: absolute;
+  top: 16px;
+  left: 5px;
+}
+
+.sign-up-page-child {
+  border-radius: var(--br-95xl);
+  background-color: var(--color-gainsboro);
+  width: 599px;
+  height: 719px;
+  position: absolute;
+  top: 195px;
+  left: 660px;
+}
+
+.picsart-23-06-13-15-25-08-573-icon5 {
+  object-fit: cover;
+  width: 127px;
+  height: 107px;
+  position: absolute;
+  top: 195px;
+  left: 896px;
+}
+
+.sign-up-page-inner, .sign-up-page-item {
+  background-color: var(--color-gray);
+  width: 500px;
+  height: 80px;
+  position: absolute;
+  top: 500px;
+  left: 701px;
+}
+
+.sign-up-page-inner {
+  top: 653px;
+  left: 698px;
+}
+
+.confirm-password, .password, .username {
+  width: 323px;
+  height: 95px;
+  display: inline-block;
+  position: absolute;
+  top: 302px;
+  left: 701px;
+}
+
+.confirm-password, .password {
+  background: linear-gradient(#0003, #0003), #000;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  width: 333px;
+  height: 47px;
+  top: 606px;
+}
+
+.password {
+  width: 160px;
+  height: 87px;
+  top: 453px;
+}
+
+.group-child, .group-div {
+  width: 500px;
+  height: 80px;
+  position: absolute;
+}
+
+.group-child {
+  background-color: var(--color-gray);
+  top: 0;
+  left: 0;
+}
+
+.group-div {
+  top: 350px;
+  left: 701px;
+}
+
+.already-have-an, .sign-in-with {
+  font-size: var(--font-size-xl);
+  position: absolute;
+  top: 830px;
+  left: 822px;
+}
+
+.sign-in-with {
+  top: 770px;
+}
+
+.catalog3, .sign-in3 {
+  position: absolute;
+  top: 57px;
+}
+
+.catalog3 {
+  background: linear-gradient(#f8f8f8d9, #bbbabad9);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  left: 1401px;
+}
+
+.sign-in3 {
+  color: var(--color-silver);
+  text-decoration: underline;
+  left: 1576px;
+}
+
+.sign-up-page {
+  background-color: var(--color-black);
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat-alternates);
+  width: 100%;
+  height: 1080px;
+  position: relative;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=SignUpPage.9f6146f1.css.map */
