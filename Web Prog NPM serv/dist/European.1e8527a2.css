@@ -95,7 +95,7 @@
 }
 
 .about-us6, .catalog5, .swords-and-blades6 {
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
   -webkit-background-clip: text;
   position: absolute;
 }

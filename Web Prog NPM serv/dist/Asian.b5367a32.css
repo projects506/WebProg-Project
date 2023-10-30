@@ -245,7 +245,7 @@
 .catalog2 {
   font-size: var(--font-size-11xl);
   background: linear-gradient(#f8f8f8d9, #bbbabad9);
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
   -webkit-background-clip: text;
   width: 126px;
   height: 19px;

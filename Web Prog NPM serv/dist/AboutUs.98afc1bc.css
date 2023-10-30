@@ -1,6 +1,6 @@
 .swords-and-blades2 {
   background: linear-gradient(#f8f8f8, #bbbaba);
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
   -webkit-background-clip: text;
   position: absolute;
   top: 48px;

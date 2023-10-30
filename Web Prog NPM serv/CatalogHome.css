@@ -35,7 +35,7 @@
 .swords-and-blades7 {
   position: absolute;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
 }
 .swords-and-blades7 {
   top: 48px;
@@ -164,7 +164,7 @@
     rgba(187, 186, 186, 0.85)
   );
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
 }
 .catalog-home {
   position: relative;

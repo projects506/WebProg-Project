@@ -36,7 +36,7 @@
 }
 
 .about-us7, .swords-and-blades7 {
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
   -webkit-background-clip: text;
   position: absolute;
 }
@@ -167,7 +167,7 @@
 
 .catalog6 {
   background: linear-gradient(#f8f8f8d9, #bbbabad9);
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
   -webkit-background-clip: text;
   text-decoration: underline;
   position: absolute;

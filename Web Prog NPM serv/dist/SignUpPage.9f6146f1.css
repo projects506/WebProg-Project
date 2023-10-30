@@ -8,7 +8,7 @@
 }
 
 .about-us4, .swords-and-blades4 {
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
   -webkit-background-clip: text;
   position: absolute;
 }
@@ -79,7 +79,7 @@
 
 .confirm-password, .password {
   background: linear-gradient(#0003, #0003), #000;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
   -webkit-background-clip: text;
   width: 333px;
   height: 47px;
@@ -127,7 +127,7 @@
 
 .catalog3 {
   background: linear-gradient(#f8f8f8d9, #bbbabad9);
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
   -webkit-background-clip: text;
   left: 1401px;
 }

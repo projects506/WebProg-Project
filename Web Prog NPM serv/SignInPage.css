@@ -10,7 +10,7 @@
 .swords-and-blades5 {
   position: absolute;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
 }
 .swords-and-blades5 {
   top: 48px;
@@ -82,7 +82,7 @@
   left: 749px;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #000;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
   width: 160px;
   height: 87px;
 }
@@ -121,7 +121,7 @@
     rgba(187, 186, 186, 0.85)
   );
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
 }
 .sign-in4 {
   left: 1576px;
