@@ -1,16 +1,38 @@
 body{
-    /* background-color:black; */
+    background-color:black;
+	animation: fadeIn 1.6s;
     background-image:url(images/image_7.png);
-    animation: fadeIn 1.4s;
-}                                 
+    animation: fadeIn 1.6s;
+	margin-top: -20px;
+	scale:98%;
+	/* margin-left: -50px; */
+	overflow: auto;
+	
+}  
+.logo { 
+	width:127px;
+	height:107px;
+	position:absolute;
+	left:5px;
+	top:16px;
+	background-image:url(images/picsart_23_06_13_15_25_08_573_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	animation: fadeIn 1.5s ease-in-out;
+	scale:79%;
+	transition: 0.3s all ease-in-out;
+}                               
+.logo:hover{
+	transform: scale(1.1);
+}
 .asianDisplay{
     transform: rotate(0.00420227471307861deg);
     color:rgba(0, 0, 0, 1);
     width:133.72503662109375px;
     height:37px;
     position:absolute;
-    left:230.002686px;
-    top:180px;
+    left: 155.002686px;
+    top:680px;
     font-family:Montserrat Alternates;
     text-align:left;
     font-size:30px;
@@ -19,22 +41,28 @@ body{
 }
 .Katana{
 	width:221px;
-	height: 409px;
+	height: 380px;
 	position:absolute;
 	scale: 135%;
-	left: 191px;
+	left: 191px;	
 	top:198px;
-	border-top-left-radius:98px;
-	border-top-right-radius:98px;
-	border-bottom-left-radius:98px;
-	border-bottom-right-radius:98px;
+	border-top-left-radius: 108px;
+	border-top-right-radius: 108px;
+	border-bottom-left-radius: 108px;
+	border-bottom-right-radius: 108px;
 	background-image:url(images/image_5.png);
-	
+	background-image:no-repeat;
 	animation: fadeIn 1.5s ease-in-out;
-}    
+	transition: 0.5s all ease-in-out;
+
+}   
+.Katana:hover{
+	background-image:url(images/image_5.png);
+	transform:scale(1.2);
+}
 .Longsword {
 	width:221px;
-	height:409px;
+	height:380px;
 	position:absolute;
 	scale:135%;
 	left: 677px;
@@ -47,6 +75,12 @@ body{
 	background-repeat:no-repeat;
 	background-size:cover;
 	animation: fadeIn 1.5s ease-in-out;
+	transition: 0.5s all ease-in-out
+}
+.Longsword:hover{
+
+	background-image:url(images/image_3.png);
+	transform:scale(1.2);
 }
 .europeanDisplay {
 	color:rgb(255, 255, 255);
@@ -54,7 +88,7 @@ body{
 	height:37px;
 	position:absolute;
 	left: 656.002686px;
-	top:180px;
+	top: 680px;
 	font-family:Montserrat Alternates;
 	text-align:left;
 	font-size:30px;
@@ -62,13 +96,13 @@ body{
 	animation: fadeIn 1.5s ease-in-out;
 	scale: 90%;
 }    
-.dagger{ 
+.dagger{
 	color:rgb(255, 255, 255);
 	width:139px;
 	height:87px;
 	position:absolute;
-	left:1261px;
-	top:135px;
+	left: 1174px;
+	top:680px;
 	font-family:Montserrat Alternates;
 	text-align:left;
 	font-size:26px;
@@ -76,12 +110,12 @@ body{
 	animation: fadeIn 1.5s ease-in-out;
 } 
 .daggerDisplay { 
-	width:409px;
-	height:221px;
+	width:221px;
+	height:381px;
 	scale:135%;
 	position:absolute;
-	left: 1098px;
-    top: 293px;
+	left: 1175px;
+    top: 198px;
 	border-top-left-radius:108px;
 	border-top-right-radius:108px;
 	border-bottom-left-radius:108px;
@@ -90,12 +124,12 @@ body{
 	background-repeat:no-repeat;
 	background-size:cover;
 	animation: fadeIn 1.5s ease-in-out;
-	-webkit-transform:rotate(270deg); 
-	-moz-transform: rotate(270deg);
-	-ms-transform: rotate(270deg);
-	-o-transform: rotate(270deg);
-	transform: rotate(270deg);   
+	transition: 0.5s all ease-in-out
 }                             
+.daggerDisplay:hover{
+	background-image:url(images/image_6.png);
+	transform:scale(1.2);
+}
 @keyframes fadeIn {
 	from {
 		opacity: 0;
@@ -108,7 +142,7 @@ button {
     background-color: white;
     color: black;
 	height: 36px;
-    width: 177px;
+	width:280px;
 	font-size:22px;
 	font-family: Montserrat Alternates;
     transition-duration: 0.4s;
@@ -124,7 +158,13 @@ button:hover{
 	background-color: black ;
 }
 .sign_in { 
-	color:rgba(187.00000405311584, 186.2208330631256, 186.2208330631256, 1);
+	background-image:linear-gradient(0deg, rgba(248.0000004172325, 248.0000004172325, 248.0000004172325, 1) 0%,rgba(187.00000405311584, 186.2208330631256, 186.2208330631256, 1) 100%) ;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	-moz-background-clip:text;
+	-moz-text-fill-color:transparent;
+	-ms-background-clip:text;
+	-ms-text-fill-color:transparent;
 	width:109px;
 	height:37px;
 	position:absolute;

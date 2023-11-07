@@ -157,9 +157,9 @@ body{
 	scale:76%;
 	width:100%;  
 	height:100%;
-	left:80px;
+	left:120px;
 	top: 150px;
-	background-image:url(images/jian_1.png);
+	background-image:url(images/sword_of_charlemagne__joyeuse__1.png);
 	background-repeat: no-repeat;
 	position: absolute;
 	animation: fadeIn 1.5s ease-in-out;
@@ -167,13 +167,13 @@ body{
 	
 }
 .daggerImg2 { 
-	transform: scale(2);
+	scale:80%;
 	transform: rotate(96.01423107536955deg);
 	width:100%;  
 	height:100%;
-	left:-690px;
-	top: 1330px;
-	background-image:url(images/katana_1.png);
+	left:-670px;
+	top: 1130px;
+	background-image:url(images/sword_of_richard_the_lionheart_1.png);
 	background-repeat: no-repeat;
 	position: absolute;
 	animation: fadeIn 1.5s ease-in-out;
@@ -183,33 +183,34 @@ body{
 	transform: rotate(-66.01423107536955deg);
 	width:64%;  
 	height:40%;
-	left:110px;
+	left:90px;
 	top: 1430px;
-	background-image:url(images/tachi_1.png);
+	background-image:url(images/sword_of_saint_maurice_1.png);
 	background-repeat: no-repeat;
 	position: absolute;
 	animation: fadeIn 1.5s ease-in-out;
 }
-.daggerImg4 { 
+.daggerImg4 {
+	transform: rotate(180deg);
 	scale:70%;
-	transform: rotate(96.01423107536955deg);
-	width:64%;  
-	height:40%;
-	left:-170px;
-	top: 2480px;
-	background-image:url(images/khanda_1.png);
+		width:100%;  
+	height:100%;
+	left:-850px;
+	top: 2080px;
+	background-image:url(images/sword_of_saint_wenceslas_1.png);
 	background-repeat: no-repeat;
 	position: absolute;
 	animation: fadeIn 1.5s ease-in-out;
 	
 }
 .daggerImg5 { 
-	
-	width:64%;  
-	height:40%;
-	left:270px;
-	top: 3130px;
-	background-image:url(images/gurkha_kukri_1.png);
+	transform: rotate(-40deg);
+	scale:50%;
+	width:100%;  
+	height:100%;
+	left:-150px;
+	top: 2730px;
+	background-image:url(images/sword_of_saint_olaf_1.png	);
 	background-repeat: no-repeat;
 	position: absolute;
 	animation: fadeIn 1.5s ease-in-out;
