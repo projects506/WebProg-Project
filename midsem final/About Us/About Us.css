@@ -1,0 +1,180 @@
+body{
+	background-color: black;
+	scale:79%;
+	margin-top:-120px;
+	margin-left: -180px;
+	animation: fadeIn 1.5s ease-in-out;
+	margin-bottom:-100px;
+}
+
+.e32_2 { 
+	background-color:rgba(0, 0, 0, 1);
+	position:absolute;
+	left:0px;
+	top:0px;
+	animation: fadeIn 1.5s ease-in-out;
+}
+.e32_3 { 
+	background-image:linear-gradient(0deg, rgba(248.0000004172325, 248.0000004172325, 248.0000004172325, 1) 0%,rgba(187.00000405311584, 186.2208330631256, 186.2208330631256, 1) 100%) ;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	-moz-background-clip:text;
+	-moz-text-fill-color:transparent;
+	-ms-background-clip:text;
+	-ms-text-fill-color:transparent;
+	width:379px;
+	height:44px;
+	position:absolute;
+	left:132px;
+	top:48px;
+	font-family:Montserrat Alternates;
+	text-align:left;
+	font-size:36px;
+	letter-spacing:0;
+	animation: fadeIn 1.5s ease-in-out;
+}
+.logo{ 
+	width:127px;
+	height:107px;
+	position:absolute;
+	left:5px;
+	top:16px;
+	background-image:url(images/picsart_23_06_13_15_25_08_573_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	animation: fadeIn 1.5s ease-in-out;
+	transition: 0.5s all ease-in-out;
+}
+.logo:hover{
+	transform: scale(1.1);
+}
+.e32_12 { 
+	opacity:0.4000000059604645;
+	width:1815px;
+	height:700px;
+	position:absolute;
+	left:53px;
+	top:123px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px;
+	animation: fadeIn 1.5s ease-in-out;
+}
+.e84_2 { 
+	background-image:linear-gradient(0deg, rgba(248.0000004172325, 248.0000004172325, 248.0000004172325, 1) 0%,rgba(187.00000405311584, 186.2208330631256, 186.2208330631256, 1) 100%) ;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	-moz-background-clip:text;
+	-moz-text-fill-color:transparent;
+	-ms-background-clip:text;
+	-ms-text-fill-color:transparent;
+	width:126px;
+	height:37px;
+	position:absolute;
+	left:1298px;
+	top:63px;
+	font-family:Montserrat Alternates;
+	text-align:left;
+	font-size:30px;
+	letter-spacing:0;
+	animation: fadeIn 1.5s ease-in-out;
+}
+.e84_3 { 
+	background-image:linear-gradient(0deg, rgba(248.0000004172325, 248.0000004172325, 248.0000004172325, 1) 0%,rgba(187.00000405311584, 186.2208330631256, 186.2208330631256, 1) 100%) ;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	-moz-background-clip:text;
+	-moz-text-fill-color:transparent;
+	-ms-background-clip:text;
+	-ms-text-fill-color:transparent;
+	width:109px;
+	height:37px;
+	position:absolute;
+	left:1497px;
+	top:64px;
+	font-family:Montserrat Alternates;
+	text-align:left;
+	font-size:30px;
+	letter-spacing:0;
+	animation: fadeIn 1.5s ease-in-out;
+}
+.e84_4 { 
+	background-image:linear-gradient(0deg, rgba(248.0000004172325, 248.0000004172325, 248.0000004172325, 1) 0%,rgba(187.00000405311584, 186.2208330631256, 186.2208330631256, 1) 100%) ;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	-moz-background-clip:text;
+	-moz-text-fill-color:transparent;
+	-ms-background-clip:text;
+	-ms-text-fill-color:transparent;
+	width:146px;
+	height:37px;
+	position:absolute;
+	left:1679px;
+	top:64px;
+	font-family:Montserrat Alternates;
+	text-align:left;
+	font-size:30px;
+	letter-spacing:0;
+	animation: fadeIn 1.5s ease-in-out;
+}
+.e84_6 { 
+	color:rgba(255, 255, 255, 1);
+	width:841px;
+	height:481px;
+	position:absolute;
+	left:109px;
+	top:224px;
+	font-family:Montserrat Alternates;
+	text-align:left;
+	font-size:30px;
+	letter-spacing:0;
+	animation: fadeIn 1.5s ease-in-out;
+}
+.e84_8 { 
+	background-image:linear-gradient(0deg, rgba(248.0000004172325, 248.0000004172325, 248.0000004172325, 1) 0%,rgba(187.00000405311584, 186.2208330631256, 186.2208330631256, 1) 100%) ;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	-moz-background-clip:text;
+	-moz-text-fill-color:transparent;
+	-ms-background-clip:text;
+	-ms-text-fill-color:transparent;
+	width:534px;
+	height:145px;
+	position:absolute;
+	left:132px;
+	top:695px;
+	font-family:Montserrat Alternates;
+	text-align:left;
+	font-size:24px;
+	letter-spacing:0;
+	animation: fadeIn 1.5s ease-in-out;
+}
+.imageBg{ 
+	opacity:0.6700000166893005;
+	width: 800px;
+	height:760px;
+	position:absolute;
+	left:1036px;
+	top:151.905517578125px;
+	border-top-left-radius:281px;
+	border-top-right-radius:281px;
+	border-bottom-left-radius:281px;
+	border-bottom-right-radius:281px;
+	background-image:url(images/image_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	animation: fadeIn 1.5s ease-in-out;
+	transition: 0.6s all ease-in-out;
+}
+.imageBg:hover{
+	transform: scale(1.1);
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
