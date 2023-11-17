@@ -6,8 +6,8 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-body{
-    background-color: rgb(18, 18, 18);
+body{overflow: hidden;
+    background-color: rgb(0, 0, 0);
     font-family: Montserrat Alternates;
     display: flex;
     align-items: auto;
@@ -16,9 +16,16 @@ body{
     height: 100vh;
     animation: fadeIn 1.5s ease-in-out forwards;
 }
-.image-container {
-    overflow: hidden;
-  }
+.icon-container{
+    width: 100%;
+    height: 93%;
+    position: absolute;
+    top:8%;
+    scale:90%;
+    background-color: #373737;
+    border-radius: 108px;
+}
+
 img{
     max-width: 100%;
     max-width: 100%;
@@ -70,4 +77,160 @@ footer {
     color: white;
     text-align: center;
     padding: 1em;
+}
+.asianDisplay{
+    transform: rotate(0.00420227471307861deg);
+    color:rgba(0, 0, 0, 1);
+    width:133.72503662109375px;
+    height:37px;
+    position:absolute;
+    left: 155.002686px;
+    top:680px;
+    font-family:Montserrat Alternates;
+    text-align:left;
+    font-size:30px;
+    letter-spacing:0;
+    animation: fadeIn 1.5s ease-in-out;
+}
+.Katana{
+	width:12%;
+	height: 40%;
+	position:absolute;
+	scale: 165%;
+	left: 13%;	
+	top:30%;
+	background-repeat: no-repeat;
+	border-radius: 108px;
+	background-image:url(images/Asian.png);
+	background-image:no-repeat;
+	animation: fadeIn 1.5s ease-in-out;
+	transition: 0.5s all ease-in-out;
+
+}   
+.Katana:hover{
+	background-image:url(images/Asian.png);
+	transform:scale(1.2);
+}
+.Longsword {
+	width:12%;
+	height: 40%;
+	position:absolute;
+	scale: 165%;
+	left: 44%;	
+	top:30%;
+	border-radius:108px;
+	background-image:url(images/European.png);
+    background-repeat:no-repeat;
+	background-size:cover;
+	animation: fadeIn 1.5s ease-in-out;
+	transition: 0.5s all ease-in-out
+}
+.Longsword:hover{
+
+	background-image:url(images/European.png);
+	transform:scale(1.2);
+}
+.europeanDisplay {
+	color:rgb(255, 255, 255);
+	width:133.72503662109375px;
+	height:37px;
+	position:absolute;
+	left: 656.002686px;
+	top: 680px;
+	font-family:Montserrat Alternates;
+	text-align:left;
+	font-size:30px;
+	letter-spacing:0;
+	animation: fadeIn 1.5s ease-in-out;
+	scale: 90%;
+}    
+.dagger{
+	color:rgb(255, 255, 255);
+	width:139px;
+	height:87px;
+	position:absolute;
+	left: 1174px;
+	top:680px;
+	font-family:Montserrat Alternates;
+	text-align:left;
+	font-size:26px;
+	letter-spacing:0;
+	animation: fadeIn 1.5s ease-in-out;
+} 
+.daggerDisplay { 
+	width:12%;
+	height: 40%;
+	position:absolute;
+	scale: 165%;
+	left: 75%;	
+	top:30%;
+	border-top-left-radius:108px;
+	border-top-right-radius:108px;
+	border-bottom-left-radius:108px;
+	border-bottom-right-radius:108px;
+	background-image:url(images/Dagger.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	animation: fadeIn 1.5s ease-in-out;
+	transition: 0.5s all ease-in-out
+}                             
+.daggerDisplay:hover{
+	background-image:url(images/Dagger.png);
+	transform:scale(1.2);
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+button {
+    background-color: white;
+    color: black;
+	position: absolute;
+	font-size:22px;
+	font-family: Montserrat Alternates;
+    transition-duration: 0.4s;
+    border-radius: 25px;
+	animation: fadeIn 1.5s ease-in-out;
+	
+}
+button:hover{
+	color:white;
+	background-color: black ;
+}
+.sign_in { 
+	color: white;
+	position:absolute;
+	left:77%;
+	top:25%;
+	font-family:Montserrat Alternates;
+	text-align:left;
+	font-size:30px;
+	letter-spacing:0;
+	animation: fadeIn 1.5s ease-in-out;
+}
+.about_us { 
+	color: white;
+	position:absolute;
+	left:87%;
+	top:25%;
+	font-family:Montserrat Alternates;
+	text-align:left;
+	font-size:30px;
+	letter-spacing:0;
+	animation: fadeIn 1.5s ease-in-out;
+}
+.catalog { 
+	color: white;
+	position:absolute;
+	left:67%;
+	top:25%;
+	font-family:Montserrat Alternates;
+	text-align:left;
+	font-size:30px;
+	letter-spacing:0;
+	animation: fadeIn 1.5s ease-in-out;
 }
