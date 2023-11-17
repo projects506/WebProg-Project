@@ -5,6 +5,7 @@ body{
 	margin-left: -180px;
 	animation: fadeIn 1.5s ease-in-out;
 	margin-bottom:-100px;
+	display: flex;
 }
 
 .e32_2 { 
@@ -117,6 +118,7 @@ body{
 	font-size:30px;
 	letter-spacing:0;
 	animation: fadeIn 1.5s ease-in-out;
+	display: flex;
 }
 .e84_6 { 
 	color:rgba(255, 255, 255, 1);
