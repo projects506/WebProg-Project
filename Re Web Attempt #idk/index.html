@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="index.css">
     <title>Homepage</title>
@@ -12,13 +14,30 @@
     <header>
         <div class="logo-container">
             <img src="indeximages/logo.png" alt="Logo">
-            <h1>Swords & Blades</h1>
+            <h1 class="title"><a href="index.html">Swords & Blades</a></h1>
         </div>
         <nav>
             <button onclick="navigate('Catalog Home')">Catalog Home</button>
-            <button onclick="navigate('Sign In')">Sign In</button>
+            <button onclick="navigate('Sign In')"><a href="signinup/SignInPage.html" style="text-decoration:none;color:white">Sign In</a >
+
+            </button>
             <button onclick="navigate('AboutUs')">AboutUs</button>
         </nav>
+       
     </header>
+    <span  class="details">  
+        <h1>Become a real warrior</h1>
+        Explore the wide range of swords and blades from all over the world,
+        including katanas, rapiers, longswords, daggers, and more. Whether you are a collector,
+        a practitioner of a martial art, or simply appreciate the beauty of these weapons,
+        our site has something for you.
+      </span>
+
+      <img src="indeximages/background.png" class="bgimage">
+
+      <a href="Catalog Home/Catalog Home.html" class="button">
+        Explore the world of steel</a>
+      
+      
     
 </body>

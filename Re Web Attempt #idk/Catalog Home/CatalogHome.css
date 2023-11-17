@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: rgb(18, 18, 18);
+    font-family: Montserrat Alternates;
+    display: flex;
+    align-items: auto;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+.image-container {
+    overflow: hidden;
+  }
+img{
+    max-width: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+header {
+    background-color: transparent;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; /* Add this line to fix the header at the top */
+    width: 100%; /* Make the header span the entire width */
+    top: 0; /* Position the header at the top of the viewport */
+    z-index: 1000; /* Set a higher z-index to ensure it appears above other elements */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Adjust margin if necessary */
+}
+
+nav button {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+main {
+    padding: 2em;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}

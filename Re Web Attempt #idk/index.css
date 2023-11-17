@@ -7,13 +7,14 @@
     font-family: 'Montserrat', sans-serif;
 }
 body{
-    background-color: black;
-	
+    background-color: rgb(18, 18, 18);
+    font-family: Montserrat Alternates;
     display: flex;
     align-items: auto;
     justify-content: center;
     flex-direction: column;
     height: 100vh;
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
 header {
     background-color: transparent;
@@ -26,17 +27,33 @@ header {
     width: 100%; /* Make the header span the entire width */
     top: 0; /* Position the header at the top of the viewport */
     z-index: 1000; /* Set a higher z-index to ensure it appears above other elements */
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 .logo-container {
     display: flex;
     align-items: center;
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 header img {
     width: 100px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
     margin-right: 20px; /* Adjust margin if necessary */
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+.title{
+background-image:linear-gradient(0deg, rgba(248.0000004172325, 248.0000004172325, 248.0000004172325, 1) 0%,rgba(187.00000405311584, 186.2208330631256, 186.2208330631256, 1) 100%) ;
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+-moz-background-clip:text;
+-moz-text-fill-color:transparent;
+-ms-background-clip:text;
+-ms-text-fill-color:transparent;
+font-family:Montserrat Alternates;
+text-align:left;
+font-size:36px;
+letter-spacing:0;
 }
 
 nav button {
@@ -47,10 +64,13 @@ nav button {
     border-radius: 5px;
     cursor: pointer;
     margin-right: 10px;
+    animation: fadeIn 1.5s ease-in-out forwards;
+    font-family:Montserrat Alternates;
 }
 
 main {
     padding: 2em;
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 footer {
@@ -58,4 +78,80 @@ footer {
     color: white;
     text-align: center;
     padding: 1em;
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
+.details { 
+	background-image:linear-gradient(0deg, rgba(248.0000004172325, 248.0000004172325, 248.0000004172325, 1) 0%,rgba(187.00000405311584, 186.2208330631256, 186.2208330631256, 1) 100%) ;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	-moz-background-clip:text;
+	-moz-text-fill-color:transparent;
+	-ms-background-clip:text;
+	-ms-text-fill-color:transparent;
+	width:40%;
+	height:60%;
+	position:absolute;
+	left:12%;
+	top:33%;
+	font-family:Montserrat Alternates;
+	text-align:left;
+	font-size:24px;
+	letter-spacing:0;
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+.details h1{
+
+	font-family:Montserrat Alternates;
+	text-align:left;
+	font-size:56px;
+	letter-spacing:0;
+}
+img{
+    max-width: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+.bgimage{ 
+	scale:39%;
+    top:-48%;
+    left:27%;
+    position: absolute;
+	border-top-left-radius:300px;
+	border-top-right-radius:300px;
+	border-bottom-left-radius:300px;
+	border-bottom-right-radius:300px;
+	background-repeat:no-repeat;
+	background-size:cover;
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+.button {
+	background-color: white;
+	color: black;
+	width: 21%;
+	height:4%;
+	position:absolute;
+    top:80%;
+	left:12%;
+	transition-duration: 0.4s;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+	text-decoration: none;
+    font-size: 24px;
+    animation: fadeIn 1.5s ease-in-out forwards;
+  }
+  .button:hover {
+	background-color: #222222; /* Green */
+	color: white;
+  }
+  @keyframes fadeIn {
+	from {
+	  opacity: 0;
+	}
+	to {
+	  opacity: 1;
+	}
+  }

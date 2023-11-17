@@ -6,19 +6,47 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-
-body{
-    background-color: black;
-    background-image: url(images/background.png);
+img{
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+.bgimg{ 
+	width:100%;
+	height:100%;
+	position:absolute;
+	background-image:url(images/background.png);
 	background-repeat:no-repeat;
 	background-size:cover;
-	
-    display: flex;
+	filter: blur(3px);
+	-webkit-filter: blur(3px);
+	animation: fadeIn 1.5s ease-in-out;
+
+}
+body{
+    background-color: black;
+    font-family: Montserrat Alternates;
+	background-repeat:no-repeat;
+	background-size:cover;
+	display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
     height: 100vh;
+    
 }
+.title{
+    background-image:linear-gradient(0deg, rgba(248.0000004172325, 248.0000004172325, 248.0000004172325, 1) 0%,rgba(187.00000405311584, 186.2208330631256, 186.2208330631256, 1) 100%) ;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    -moz-background-clip:text;
+    -moz-text-fill-color:transparent;
+    -ms-background-clip:text;
+    -ms-text-fill-color:transparent;
+    font-family:Montserrat Alternates;
+    text-align:left;
+    font-size:36px;
+    letter-spacing:0;
+    }
 header {
     background-color: transparent;
     color: white;
@@ -30,17 +58,20 @@ header {
     width: 100%; /* Make the header span the entire width */
     top: 0; /* Position the header at the top of the viewport */
     z-index: 1000; /* Set a higher z-index to ensure it appears above other elements */
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 .logo-container {
     display: flex;
     align-items: center;
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 header img {
     width: 100px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
     margin-right: 20px; /* Adjust margin if necessary */
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 nav button {
@@ -51,6 +82,7 @@ nav button {
     border-radius: 5px;
     cursor: pointer;
     margin-right: 10px;
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 .container{
@@ -62,6 +94,7 @@ nav button {
     width: 768px;
     max-width: 100%;
     min-height: 480px;
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 .container p{
@@ -69,10 +102,12 @@ nav button {
     line-height: 20px;
     letter-spacing: 0.3px;
     margin: 20px 0;
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 .container span{
     font-size: 12px;
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 .container a{
@@ -80,6 +115,7 @@ nav button {
     font-size: 13px;
     text-decoration: none;
     margin: 15px 0 10px;
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 .container button{
@@ -94,11 +130,14 @@ nav button {
     text-transform: uppercase;
     margin-top: 10px;
     cursor: pointer;
+    animation: fadeIn 1.5s ease-in-out forwards;
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 .container button.hidden{
     background-color: transparent;
     border-color: #fff;
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 .container form{
@@ -108,7 +147,9 @@ nav button {
     justify-content: center;
     flex-direction: column;
     padding: 0 40px;
+    animation: fadeIn 1.5s ease-in-out forwards;
     height: 100%;
+    
 }
 
 .container input{
@@ -120,6 +161,7 @@ nav button {
     border-radius: 8px;
     width: 100%;
     outline: none;
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 .form-container{
@@ -127,16 +169,20 @@ nav button {
     top: 0;
     height: 100%;
     transition: all 0.6s ease-in-out;
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 .sign-in{
     left: 0;
     width: 50%;
     z-index: 2;
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 .container.active .sign-in{
     transform: translateX(100%);
+    animation: fadeIn 1.5s ease-in-out forwards;
+    
 }
 
 .sign-up{
@@ -144,6 +190,7 @@ nav button {
     width: 50%;
     opacity: 0;
     z-index: 1;
+    animation: fadeIn 8s ease-in-out forwards;
 }
 
 .container.active .sign-up{
@@ -151,6 +198,7 @@ nav button {
     opacity: 1;
     z-index: 5;
     animation: move 0.6s;
+    animation: fadeIn 3s ease-in-out forwards;
 }
 
 @keyframes move{
@@ -166,6 +214,7 @@ nav button {
 
 .social-icons{
     margin: 20px 0;
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 .social-icons a{
@@ -177,6 +226,7 @@ nav button {
     margin: 0 3px;
     width: 40px;
     height: 40px;
+    
 }
 
 .toggle-container{
@@ -189,11 +239,13 @@ nav button {
     transition: all 0.6s ease-in-out;
     border-radius: 150px 0 0 100px;
     z-index: 1000;
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 .container.active .toggle-container{
     transform: translateX(-100%);
     border-radius: 0 150px 100px 0;
+    
 }
 
 .toggle{
@@ -207,6 +259,7 @@ nav button {
     width: 200%;
     transform: translateX(0);
     transition: all 0.6s ease-in-out;
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 .container.active .toggle{
@@ -226,21 +279,34 @@ nav button {
     top: 0;
     transform: translateX(0);
     transition: all 0.6s ease-in-out;
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 .toggle-left{
     transform: translateX(-200%);
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 .container.active .toggle-left{
+    animation: fadeIn 1.5s ease-in-out forwards;
     transform: translateX(0);
 }
 
 .toggle-right{
+    animation: fadeIn 1.5s ease-in-out forwards;
     right: 0;
     transform: translateX(0);
 }
 
 .container.active .toggle-right{
+    animation: fadeIn 1.5s ease-in-out forwards;
     transform: translateX(200%);
 }
+@keyframes fadeIn {
+	from {
+	  opacity: 0;
+	}
+	to {
+	  opacity: 1;
+	}
+  }
