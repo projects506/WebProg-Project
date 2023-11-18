@@ -15,7 +15,7 @@ body{
     background-image: url(background.png);
     background-repeat:no-repeat;
 	background-size:cover;
-    overflow: hidden;
+    /* overflow: hidden; */
    
     min-height: 100vh;
 }
@@ -37,12 +37,22 @@ body{
     backdrop-filter: blur(11.6px);
     -webkit-backdrop-filter: blur(11.6px);
 }
-
 .logo{
+    
+    scale:5%;
+    position: absolute;
+    top:-148%;
+    left:-80%;
+    
+}
+
+.logo-container{
     display: inline-block;
     font-size: 30px;
     font-weight: 600;
     margin-top: -10px;
+    position: absolute;
+    left:7%;
 }
 
 ul.nav-links{
