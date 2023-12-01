@@ -1,0 +1,212 @@
+.background-icon {
+  position: relative;
+  border-radius: 27px;
+  width: 1702px;
+  height: 850px;
+  object-fit: cover;
+  z-index: 0;
+}
+.swords-and-blades2 {
+  position: absolute;
+  margin: 0 !important;
+  top: 48px;
+  left: 132px;
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  background: linear-gradient(180deg, #f8f8f8, #bbbaba);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  z-index: 1;
+}
+.european-thumbnail-icon {
+  position: absolute;
+  margin: 0 !important;
+  top: 181px;
+  left: 143px;
+  border-radius: var(--br-56xl);
+  width: 332px;
+  height: 582px;
+  object-fit: cover;
+  z-index: 2;
+}
+.picsart-23-06-13-15-25-08-573-icon2 {
+  position: absolute;
+  margin: 0 !important;
+  top: 16px;
+  left: 5px;
+  width: 127px;
+  height: 107px;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 3;
+}
+.asian-thumbnail-icon,
+.daggers-thumbnail-icon {
+  position: absolute;
+  margin: 0 !important;
+  top: 190px;
+  left: 753px;
+  border-radius: var(--br-56xl);
+  width: 332px;
+  height: 582px;
+  object-fit: cover;
+  z-index: 4;
+}
+.daggers-thumbnail-icon {
+  left: 1336px;
+  z-index: 5;
+}
+.longsword {
+  top: 5px;
+  left: 167px;
+  display: inline-block;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+  z-index: 0;
+}
+.katanas,
+.longsword,
+.longsword-title {
+  position: absolute;
+  margin: 0 !important;
+}
+.longsword-title {
+  top: 247px;
+  left: 155px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-31xl);
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+  z-index: 6;
+  text-align: center;
+  font-size: 22px;
+}
+.katanas {
+  top: 2px;
+  left: 35px;
+  display: inline-block;
+  z-index: 0;
+}
+.daggers-title,
+.katanas-title {
+  margin: 0 !important;
+  position: absolute;
+  top: 450px;
+  left: 793px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  width: 203px;
+  height: 38px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-31xl);
+  box-sizing: border-box;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+  z-index: 7;
+}
+.daggers-title {
+  left: 1583px;
+  z-index: 8;
+}
+.explore-european1 {
+  position: relative;
+  letter-spacing: -0.05em;
+}
+.explore-asian,
+.explore-daggers,
+.explore-european {
+  margin: 0 !important;
+  position: absolute;
+  top: 775px;
+  left: 115px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-31xl);
+  cursor: pointer;
+  z-index: 9;
+}
+.explore-asian,
+.explore-daggers {
+  left: 768px;
+  z-index: 10;
+}
+.explore-daggers {
+  top: 763px;
+  left: 1336px;
+  z-index: 11;
+}
+.about-us3,
+.catalog2,
+.sign-in2 {
+  position: absolute;
+  margin: 0 !important;
+  display: inline-block;
+}
+.catalog2 {
+  top: 63px;
+  left: 1156px;
+  background: linear-gradient(
+    180deg,
+    rgba(248, 248, 248, 0.85),
+    rgba(187, 186, 186, 0.85)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 12;
+}
+.about-us3,
+.sign-in2 {
+  top: 64px;
+  cursor: pointer;
+}
+.sign-in2 {
+  left: 1319px;
+  color: #eaeaea;
+  z-index: 13;
+}
+.about-us3 {
+  left: 1484px;
+  background: linear-gradient(
+    180deg,
+    rgba(248, 248, 248, 0.85),
+    rgba(187, 186, 186, 0.85)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 14;
+}
+.catalog-home {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #242323;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat-alternates);
+}
+
+
+/*# sourceMappingURL=/catalog-home.84f724eb.css.map */

@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-montserrat-alternates: "Montserrat Alternates";
+
+  /* font sizes */
+  --font-size-11xl: 30px;
+  --font-size-5xl: 24px;
+  --font-size-17xl: 36px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-white: #fff;
+  --color-silver: #bbbaba;
+
+  /* Paddings */
+  --padding-xs: 12px;
+  --padding-31xl: 50px;
+
+  /* Border radiuses */
+  --br-262xl: 281px;
+  --br-6xl: 25px;
+  --br-56xl: 75px;
+}

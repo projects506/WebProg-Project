@@ -1,0 +1,112 @@
+.catalog,
+.swords-and-blades {
+  position: absolute;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: white;
+}
+.swords-and-blades {
+  top: 48px;
+  left: 132px;
+  font-size: var(--font-size-17xl);
+  background: transparent;
+}
+.catalog {
+  top: 60px;
+  left: 1169px;
+  background: transparent;
+  cursor: pointer;
+}
+.become-a-real {
+  margin: 0;
+}
+.become-a-real-container,
+.explore-the-wide-container {
+  position: absolute;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: white;
+  display: inline-block;
+}
+.become-a-real-container {
+  top: 245px;
+  left: 83px;
+  font-size: 64px;
+  background: transparent;
+  width: 781px;
+}
+.explore-the-wide-container {
+  top: 309px;
+  left: 167px;
+  font-size: var(--font-size-5xl);
+  background: transparent;
+  width: 534px;
+}
+.about-us,
+.sign-in {
+  position: absolute;
+  top: 60px;
+  cursor: pointer;
+}
+.about-us {
+  left: 1492px;
+  background: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: white;
+}
+.sign-in {
+  left: 1339px;
+}
+.picsart-23-06-13-15-25-08-573-icon {
+  position: absolute;
+  top: 16px;
+  left: 5px;
+  width: 127px;
+  height: 107px;
+  object-fit: cover;
+}
+.explore-the-world {
+  position: relative;
+  letter-spacing: -0.05em;
+}
+.explore-the-world-of-steel-wrapper {
+  position: absolute;
+  top: 564px;
+  left: 150px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-31xl);
+  cursor: pointer;
+  color: var(--color-black);
+}
+.image-1-icon {
+  position: absolute;
+  top: 124px;
+  left: 912px;
+  border-radius: var(--br-262xl);
+  width: 795px;
+  height: 726px;
+  object-fit: cover;
+  opacity: 0.67;
+}
+.homepage-child {
+  position: absolute;
+  top: 340.8px;
+  left: 0;
+  width: 0.9px;
+  height: 509.2px;
+}
+.homepage {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 850px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-silver);
+  font-family: var(--font-montserrat-alternates);
+}

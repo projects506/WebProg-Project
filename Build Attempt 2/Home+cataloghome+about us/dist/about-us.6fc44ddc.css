@@ -1,0 +1,104 @@
+.swords-and-blades1 {
+  font-size: var(--font-size-17xl);
+  background: linear-gradient(#f8f8f8, #bbbaba);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  position: absolute;
+  top: 48px;
+  left: 132px;
+}
+
+.picsart-23-06-13-15-25-08-573-icon1 {
+  object-fit: cover;
+  width: 127px;
+  height: 107px;
+  position: absolute;
+  top: 16px;
+  left: 5px;
+}
+
+.image-1 {
+  opacity: .4;
+  mix-blend-mode: lighten;
+  border-radius: 3px;
+  width: 1815px;
+  height: 911px;
+  position: absolute;
+  top: 123px;
+  left: 53px;
+}
+
+.catalog1 {
+  background: linear-gradient(#f8f8f8d9, #bbbabad9);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  position: absolute;
+  top: 63px;
+  left: 1156px;
+}
+
+.about-us2, .sign-in1 {
+  position: absolute;
+  top: 64px;
+  left: 1319px;
+}
+
+.about-us2 {
+  background: linear-gradient(#f8f8f8d9, #bbbabad9);
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  -webkit-background-clip: text;
+  left: 1484px;
+}
+
+.at-swords-and {
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  width: 710px;
+  height: 373px;
+  display: inline-block;
+  position: absolute;
+  top: 205px;
+  left: 109px;
+}
+
+.aryyan-ahlawat- {
+  margin: 0;
+}
+
+.group-7-nishant-container {
+  font-size: var(--font-size-5xl);
+  background: linear-gradient(#f8f8f8d9, #bbbabad9);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  width: 534px;
+  display: inline-block;
+  position: absolute;
+  top: 613px;
+  left: 132px;
+}
+
+.image-1-icon1 {
+  border-radius: var(--br-262xl);
+  object-fit: cover;
+  opacity: .67;
+  width: 777px;
+  height: 698px;
+  position: absolute;
+  top: 152px;
+  left: 930px;
+}
+
+.about-us1 {
+  background-color: var(--color-black);
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-silver);
+  font-family: var(--font-montserrat-alternates);
+  width: 100%;
+  height: 850px;
+  position: relative;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=about-us.6fc44ddc.css.map */

@@ -1,0 +1,214 @@
+.background-icon {
+  object-fit: cover;
+  z-index: 0;
+  border-radius: 27px;
+  width: 1702px;
+  height: 850px;
+  position: relative;
+}
+
+.swords-and-blades2 {
+  font-size: var(--font-size-17xl);
+  background: linear-gradient(#f8f8f8, #bbbaba);
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  z-index: 1;
+  -webkit-background-clip: text;
+  display: inline-block;
+  position: absolute;
+  top: 48px;
+  left: 132px;
+  margin: 0 !important;
+}
+
+.european-thumbnail-icon {
+  border-radius: var(--br-56xl);
+  object-fit: cover;
+  z-index: 2;
+  width: 332px;
+  height: 582px;
+  position: absolute;
+  top: 181px;
+  left: 143px;
+  margin: 0 !important;
+}
+
+.picsart-23-06-13-15-25-08-573-icon2 {
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 3;
+  width: 127px;
+  height: 107px;
+  position: absolute;
+  top: 16px;
+  left: 5px;
+  margin: 0 !important;
+}
+
+.asian-thumbnail-icon, .daggers-thumbnail-icon {
+  border-radius: var(--br-56xl);
+  object-fit: cover;
+  z-index: 4;
+  width: 332px;
+  height: 582px;
+  position: absolute;
+  top: 190px;
+  left: 753px;
+  margin: 0 !important;
+}
+
+.daggers-thumbnail-icon {
+  z-index: 5;
+  left: 1336px;
+}
+
+.longsword {
+  transform-origin: 0 0;
+  z-index: 0;
+  display: inline-block;
+  top: 5px;
+  left: 167px;
+  transform: rotate(180deg);
+}
+
+.katanas, .longsword, .longsword-title {
+  position: absolute;
+  margin: 0 !important;
+}
+
+.longsword-title {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  padding: var(--padding-xs) var(--padding-31xl);
+  transform-origin: 0 0;
+  z-index: 6;
+  text-align: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 22px;
+  display: flex;
+  top: 247px;
+  left: 155px;
+  overflow: hidden;
+  transform: rotate(90deg);
+}
+
+.katanas {
+  z-index: 0;
+  display: inline-block;
+  top: 2px;
+  left: 35px;
+}
+
+.daggers-title, .katanas-title {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  padding: var(--padding-xs) var(--padding-31xl);
+  box-sizing: border-box;
+  transform-origin: 0 0;
+  z-index: 7;
+  flex-direction: row;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 203px;
+  height: 38px;
+  display: flex;
+  position: absolute;
+  top: 450px;
+  left: 793px;
+  overflow: hidden;
+  transform: rotate(-90deg);
+  margin: 0 !important;
+}
+
+.daggers-title {
+  z-index: 8;
+  left: 1583px;
+}
+
+.explore-european1 {
+  letter-spacing: -.05em;
+  position: relative;
+}
+
+.explore-asian, .explore-daggers, .explore-european {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  padding: var(--padding-xs) var(--padding-31xl);
+  cursor: pointer;
+  z-index: 9;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  position: absolute;
+  top: 775px;
+  left: 115px;
+  overflow: hidden;
+  margin: 0 !important;
+}
+
+.explore-asian, .explore-daggers {
+  z-index: 10;
+  left: 768px;
+}
+
+.explore-daggers {
+  z-index: 11;
+  top: 763px;
+  left: 1336px;
+}
+
+.about-us3, .catalog2, .sign-in2 {
+  display: inline-block;
+  position: absolute;
+  margin: 0 !important;
+}
+
+.catalog2 {
+  background: linear-gradient(#f8f8f8d9, #bbbabad9);
+  -webkit-text-fill-color: transparent;
+  z-index: 12;
+  -webkit-background-clip: text;
+  top: 63px;
+  left: 1156px;
+}
+
+.about-us3, .sign-in2 {
+  cursor: pointer;
+  top: 64px;
+}
+
+.sign-in2 {
+  color: #eaeaea;
+  z-index: 13;
+  left: 1319px;
+}
+
+.about-us3 {
+  background: linear-gradient(#f8f8f8d9, #bbbabad9);
+  -webkit-text-fill-color: transparent;
+  z-index: 14;
+  -webkit-background-clip: text;
+  left: 1484px;
+}
+
+.catalog-home {
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat-alternates);
+  background: linear-gradient(#0003, #0003), #242323;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=catalog-home.655e5bac.css.map */

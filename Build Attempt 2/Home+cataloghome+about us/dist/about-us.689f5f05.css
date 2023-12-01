@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  --font-montserrat-alternates: "Montserrat Alternates";
+  --font-size-11xl: 30px;
+  --font-size-5xl: 24px;
+  --font-size-17xl: 36px;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-silver: #bbbaba;
+  --padding-xs: 12px;
+  --padding-31xl: 50px;
+  --br-262xl: 281px;
+  --br-6xl: 25px;
+  --br-56xl: 75px;
+}
+
+/*# sourceMappingURL=about-us.689f5f05.css.map */

@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: #fff;
+    background-image: url(imagesAsian/image-13@2x.png);
+    background-color: black;
+    overflow-x: hidden; /* Hide the horizontal scrollbar */
+    overflow-y: auto;
+    max-height: calc(117vh - 20vh);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100%; /* Ensure the container fills the height */
+}
+
+.glass-container {
+    width: 72vw;
+    max-width: 960px; /* Max width for responsiveness */
+    margin-top: 10vh;
+    margin-bottom: 10vh; /* Adjust margin as needed */
+    background: rgba(255, 255, 255, 0.2);
+    padding: 2%;
+    border-radius: 16px;
+    backdrop-filter: blur(11.6px);
+    -webkit-backdrop-filter: blur(11.6px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    min-height: calc(50vh - 20vh); /* Adjust for the top and bottom margin */
+}
+
+/* Minimal space at the bottom */
+.glass-container::after {
+    content: "";
+    display: block;
+    height: 10px; /* Adjust the minimal space at the bottom */
+}
+
+
+
+.logo{
+    
+    scale:5%;
+    position: absolute;
+    top:-2470%;
+    left:-425%;
+
+    
+}
+
+.logo-container{
+   
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -10px;
+    position: absolute;
+    left:7%;
+}
+
+ul.nav-links{
+    margin: 0;
+    float: right;
+    display: flex;
+    list-style: none;
+}
+
+li.nav-link{
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.content{
+    display: flex;
+    width: 100%;
+}
+
+.main{
+    margin-top: 10vh;
+    display: inline-block;
+    padding: 20px;
+}
+
+.main h2{
+    font-size: 35px;
+}
+
+.main p{
+    font-size: 16px;
+    line-height: 23px;
+}
+
+/* This part would add styles to the image wrappers */
+
+.image-wrapper-2 {
+  display:flex;
+  flex-direction: column;
+  margin-top: 5vh;
+  position: relative;
+  border-radius: 90px;
+  align-items: flex-start;
+}
+
+.image-wrapper-2 img {
+  max-width: 400px;
+    width: 100%;
+    height:100%;
+    scale:110%;
+    position: relative;
+    margin-left:0%;
+    margin-bottom: 100px;
+    padding-left: 16px;
+    padding-right: 16px;
+    top:-20%;
+    align-content: left;
+}
+
+.the-talwar-is-container {
+  position: absolute;
+  top: 1348px;
+  left: 732px;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 921px;
+  height: 442px;
+}
+.the-karambit-or-container,
+.the-wakizashi {
+  position: absolute;
+  top: 2514px;
+  left: 755px;
+  display: inline-block;
+  width: 898px;
+  height: 418px;
+}
+.the-wakizashi {
+  top: 4581px;
+  left: 780px;
+  width: 840px;
+  height: 508px;
+}
+.a-katana-is,
+.dao-are-single-edged-container {
+  position: absolute;
+  top: 300px;
+  left: 760px;
+  display: inline-block;
+  width: 893px;
+  height: 519px;
+}
+.dao-are-single-edged-container {
+  top: 3564px;
+  left: 780px;
+  white-space: pre-wrap;
+  width: 867px;
+  height: 464px;
+}
+.designed-around-container2,
+.designed-around-container3,
+.designed-around-container4 {
+  position: absolute;
+  top: 646px;
+  left: 1056px;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 578px;
+  height: 226px;
+}
+.designed-around-container3,
+.designed-around-container4 {
+  top: 3944px;
+}
+.designed-around-container4 {
+  top: 5010px;
+}
+.catalog1 {
+  position: absolute;
+  top: 44px;
+  left: 1388px;
+  font-size: var(--font-size-11xl);
+  text-decoration: underline;
+  display: inline-block;
+  background: linear-gradient(
+    180deg,
+    rgba(248, 248, 248, 0.85),
+    rgba(187, 186, 186, 0.85)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: white;
+  width: 126px;
+  height: 19px;
+}
+
+.daggers {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 5400px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat-alternates);
+}
+
+@media screen and (max-width: 1075px) {
+    .content{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .logo{
+        font-size: 22px;
+    }
+    li.nav-link{
+        font-size: 13px;
+    }
+    .main h2{
+        font-size: 28px;
+    }
+    .main p{
+        font-size: 15px;
+    }
+    button{
+        font-size: 13px;
+    }
+    .image-wrapper img{
+        max-width: 400px;
+    }
+}
