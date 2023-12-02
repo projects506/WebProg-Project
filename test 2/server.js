@@ -62,6 +62,17 @@ app.get('/cataloghome', (req, res) => {
     res.render('cataloghome');
 });
 
+app.get('/Asian', (req, res) => {
+    res.render('Asian');
+});
+
+app.get('/European', (req, res) => {
+    res.render('European');
+});
+
+app.get('/Daggers', (req, res) => {
+    res.render('Daggers');
+});
 
 
 
