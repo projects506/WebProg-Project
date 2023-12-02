@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: #fff;
+    background-image: url(imagesAsian/image-13@2x.png);
+    background-color: black;
+    overflow-x: hidden; /* Hide the horizontal scrollbar */
+    overflow-y: auto;
+    max-height: calc(117vh - 20vh);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100%; /* Ensure the container fills the height */
+}
+
+.glass-container {
+    width: 72vw;
+    max-width: 960px; /* Max width for responsiveness */
+    margin-top: 10vh;
+    margin-bottom: 10vh; /* Adjust margin as needed */
+    background: rgba(255, 255, 255, 0.2);
+    padding: 2%;
+    border-radius: 16px;
+    backdrop-filter: blur(11.6px);
+    -webkit-backdrop-filter: blur(11.6px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    min-height: calc(50vh - 20vh); /* Adjust for the top and bottom margin */
+}
+
+.glass-container::after {
+    content: "";
+    display: block;
+    height: 10px; /* Adjust the minimal space at the bottom */
+}
+.logo{
+    scale:4.8%;
+    position: absolute;
+    top: -2472%;
+    left: -418%;
+}
+
+.logo-container{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -10px;
+    position: absolute;
+    left: 7%;
+}
+
+ul.nav-links{
+    margin: 0;
+    float: right;
+    display: flex;
+    list-style: none;
+}
+
+li.nav-link{
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.content{
+    display: flex;
+    width: 100%;
+}
+
+.main{
+    margin-top: 10vh;
+    display: inline-block;
+    padding: 20px;
+}
+
+.main h2{
+    font-size: 35px;
+}
+
+.main p{
+    font-size: 16px;
+    line-height: 23px;
+}
+
+/* This part would add styles to the image wrappers */
+
+.image-container-1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    position:relative;
+    align-items: flex-start;
+    max-width: 400px; /* Adjust maximum width */
+    width: 100%;
+    height: auto; /* Allow images to adjust height proportionally */
+    /* Additional styles as needed */
+}
+
+.image-container-2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    position:relative;
+    align-items: flex-start;
+    max-width: 400px; /* Adjust maximum width */
+    width: 100%;
+    height: auto; /* Allow images to adjust height proportionally */
+    /* Additional styles as needed */
+}
+
+.image-container-3{ display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    position:relative;
+    align-items: flex-start;
+    max-width: 400px; /* Adjust maximum width */
+    width: 100%;
+    height: auto; /* Allow images to adjust height proportionally */
+    /* Additional styles as needed */}
+
+.image-container-4{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    position:relative;
+    align-items: flex-start;
+    max-width: 400px; /* Adjust maximum width */
+    width: 100%;
+    height: auto; /* Allow images to adjust height proportionally */
+    /* Additional styles as needed */
+}
+
+.image-container-5 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    position:relative;
+    align-items: flex-start;
+    max-width: 400px; /* Adjust maximum width */
+    width: 100%;
+    height: auto; /* Allow images to adjust height proportionally */
+    /* Additional styles as needed */
+}
+
+.image-container-1 img{
+    display: block; /* Ensure image behaves as a block element */
+    margin:0 auto 0 335px; /* Center the image horizontally */
+    max-width: 100%; /* Ensure images fit container width */
+    height: auto;
+    transform: scale(1.4); /* Adjust the scale value for zoom level */
+    transition: transform 0.3s ease;
+    /* Additional styles for images */}
+
+.image-container-2 img{
+    display: block; /* Ensure image behaves as a block element */
+    margin:0 auto 0 220px; /* Center the image horizontally */
+    max-width: 100%; /* Ensure images fit container width */
+    height: auto;
+    transform: scale(1.6); /* Adjust the scale value for zoom level */
+    transition: transform 0.3s ease;
+    /* Additional styles for images */
+}
+
+.image-container-3 img{
+    display: block; /* Ensure image behaves as a block element */
+    margin:0 auto 0 220px; /* Center the image horizontally */
+    max-width: 100%; /* Ensure images fit container width */
+    height: auto;
+    transform: scale(1.6); /* Adjust the scale value for zoom level */
+    transition: transform 0.3s ease;
+    /* Additional styles for images */
+}
+
+.image-container-4 img{
+    display: block; /* Ensure image behaves as a block element */
+    margin:0 auto 0 220px; /* Center the image horizontally */
+    max-width: 100%; /* Ensure images fit container width */
+    height: auto;
+    transform: scale(2.3); /* Adjust the scale value for zoom level */
+    transition: transform 0.3s ease;
+    /* Additional styles for images */
+}
+
+.image-container-5 img {
+    display: block; /* Ensure image behaves as a block element */
+    margin:0 auto 0 335px; /* Center the image horizontally */
+    max-width: 100%; /* Ensure images fit container width */
+    height: auto;
+    transform: scale(2); /* Adjust the scale value for zoom level */
+    transition: transform 0.3s ease;
+    /* Additional styles for images */
+}
+
+.description {
+    margin-left: 5; /* Adjust the distance between image and description */
+    margin-top: 94px;
+    margin-bottom: 94px;
+    flex: 1;
+    background-color:rgba(255, 255, 255, 0  ); /* Example background color */
+    padding: 10px; /* Example padding around the description */
+    /* border: 1px solid #ccc; Example border for visual separation */
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); Example shadow effect */
+    width: 210%; /* Example width for the description container */
+    text-align:left; /* Example text alignment */
+}
+
+.description p {
+    font-size: 18px; /* Adjust the font size as needed */
+    font-style: normal;
+    font-weight: 650; /* Example font weight */
+    line-height: 1.6; /* Example line height for better readability */
+    margin-bottom: 10px; /* Example margin between paragraphs */
+    /* Additional styles for the description text */
+}
+
+@media screen and (max-width: 720px) {
+    .logo{
+        font-size: 22px;
+    }
+    li.nav-link{
+        font-size: 13px;
+    }
+    .main h2{
+        font-size: 28px;
+    }
+    .main p{
+        font-size: 15px;
+    }
+    button{
+        font-size: 13px;
+    }
+    .image-wrapper img{
+        max-width: 400px;
+    }
+
+ 
+  
+}
+.image-container-1.animate,
+.image-container-2.animate,
+.image-container-3.animate,
+.image-container-4.animate,
+.image-container-5.animate {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.image-container-1.animate {
+  animation: fadeInUp 1s ease-out 0.5s  normal both;
+}
+
+.image-container-2.animate {
+  animation: fadeInUp 1.2s ease-out 0.5s 1 normal both;
+}
+
+.image-container-3.animate {
+  animation: fadeInUp 1.4s ease-out 0.5s 1 normal both;
+}
+
+.image-container-4.animate {
+  animation: fadeInUp 1.6s ease-out 0.5s 1 normal both;
+}
+
+.image-container-5.animate {
+  animation: fadeInUp 1.8s ease-out 0.5s 1 normal both;
+}
+
+.bgimg2{ 
+	width:100%;
+	height:100%;
+	position:absolute;
+	background-image: url(imagesEuro/Euroback2.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	filter: blur(5px);
+	-webkit-filter: blur(5px);
+	animation: fadeIn 1.5s ease-in-out;
+
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeIn{
+from{
+    opacity:0;
+}
+to{
+    opacity: 1;
+}
+}
