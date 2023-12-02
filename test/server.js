@@ -44,9 +44,22 @@ app.get('/', (req, res) => {
     res.render('index');
 });
 
-// Sign-in/Sign-up page routes
+app.get('/index', (req, res) => {
+    res.render('index');
+});
+
+// Sign-in and Sign-up page routes
 app.get('/signinup', (req, res) => {
-    res.render('signinup');
+    // You can include any necessary initial data or messages here
+    res.render('signinup', { successMessage: null, errorMessage: null });
+});
+
+app.get('/aboutus', (req, res) => {
+    res.render('aboutus');
+});
+
+app.get('/cataloghome', (req, res) => {
+    res.render('cataloghome');
 });
 
 app.post('/sign_up', async (req, res) => {
