@@ -50,10 +50,10 @@ html, body {
     height: 10px; /* Adjust the minimal space at the bottom */
 }
 .logo{
-    scale: 5%;
+    scale:4.8%;
     position: absolute;
-    top: -2470%;
-    left: -425%;
+    top: -2472%;
+    left: -418%;
 }
 
 .logo-container{
@@ -100,10 +100,52 @@ li.nav-link{
 
 /* This part would add styles to the image wrappers */
 
-.image-container-1,
-.image-container-2,
-.image-container-3,
-.image-container-4,
+.image-container-1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    position:relative;
+    align-items: flex-start;
+    max-width: 400px; /* Adjust maximum width */
+    width: 100%;
+    height: auto; /* Allow images to adjust height proportionally */
+    /* Additional styles as needed */
+}
+
+.image-container-2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    position:relative;
+    align-items: flex-start;
+    max-width: 400px; /* Adjust maximum width */
+    width: 100%;
+    height: auto; /* Allow images to adjust height proportionally */
+    /* Additional styles as needed */
+}
+
+.image-container-3{ display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    position:relative;
+    align-items: flex-start;
+    max-width: 400px; /* Adjust maximum width */
+    width: 100%;
+    height: auto; /* Allow images to adjust height proportionally */
+    /* Additional styles as needed */}
+
+.image-container-4{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    position:relative;
+    align-items: flex-start;
+    max-width: 400px; /* Adjust maximum width */
+    width: 100%;
+    height: auto; /* Allow images to adjust height proportionally */
+    /* Additional styles as needed */
+}
+
 .image-container-5 {
     display: flex;
     flex-direction: column;
@@ -118,24 +160,57 @@ li.nav-link{
 
 .image-container-1 img{
     display: block; /* Ensure image behaves as a block element */
-    margin:0 auto 0 210px; /* Center the image horizontally */
+    margin:0 auto 0 335px; /* Center the image horizontally */
     max-width: 100%; /* Ensure images fit container width */
     height: auto;
+    transform: scale(1.4); /* Adjust the scale value for zoom level */
+    transition: transform 0.3s ease;
+    /* Additional styles for images */}
+
+.image-container-2 img{
+    display: block; /* Ensure image behaves as a block element */
+    margin:0 auto 0 220px; /* Center the image horizontally */
+    max-width: 100%; /* Ensure images fit container width */
+    height: auto;
+    transform: scale(1.6); /* Adjust the scale value for zoom level */
+    transition: transform 0.3s ease;
     /* Additional styles for images */
 }
-.image-container-2 img,
-.image-container-3 img,
-.image-container-4 img,
-.image-container-5 img {
+
+.image-container-3 img{
     display: block; /* Ensure image behaves as a block element */
-    margin:0 auto 0 300px; /* Center the image horizontally */
+    margin:0 auto 0 220px; /* Center the image horizontally */
     max-width: 100%; /* Ensure images fit container width */
     height: auto;
+    transform: scale(1.6); /* Adjust the scale value for zoom level */
+    transition: transform 0.3s ease;
+    /* Additional styles for images */
+}
+
+.image-container-4 img{
+    display: block; /* Ensure image behaves as a block element */
+    margin:0 auto 0 220px; /* Center the image horizontally */
+    max-width: 100%; /* Ensure images fit container width */
+    height: auto;
+    transform: scale(2.3); /* Adjust the scale value for zoom level */
+    transition: transform 0.3s ease;
+    /* Additional styles for images */
+}
+
+.image-container-5 img {
+    display: block; /* Ensure image behaves as a block element */
+    margin:0 auto 0 335px; /* Center the image horizontally */
+    max-width: 100%; /* Ensure images fit container width */
+    height: auto;
+    transform: scale(2); /* Adjust the scale value for zoom level */
+    transition: transform 0.3s ease;
     /* Additional styles for images */
 }
 
 .description {
     margin-left: 5; /* Adjust the distance between image and description */
+    margin-top: 94px;
+    margin-bottom: 94px;
     flex: 1;
     background-color:rgba(255, 255, 255, 0  ); /* Example background color */
     padding: 10px; /* Example padding around the description */
@@ -146,9 +221,9 @@ li.nav-link{
 }
 
 .description p {
-    font-size: 15px; /* Adjust the font size as needed */
+    font-size: 18px; /* Adjust the font size as needed */
     font-style: normal;
-    font-weight: 500; /* Example font weight */
+    font-weight: 650; /* Example font weight */
     line-height: 1.6; /* Example line height for better readability */
     margin-bottom: 10px; /* Example margin between paragraphs */
     /* Additional styles for the description text */
@@ -206,18 +281,20 @@ li.nav-link{
 .image-container-5.animate {
   animation: fadeInUp 1.8s ease-out 0.5s 1 normal both;
 }
-.bgimg{ 
+
+.bgimg2{ 
 	width:100%;
 	height:100%;
 	position:absolute;
-	background-image:url(imagesAsian/background.png);
+	background-image: url(imagesEuro/Euroback2.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
-	filter: blur(3px);
-	-webkit-filter: blur(3px);
+	filter: blur(5px);
+	-webkit-filter: blur(5px);
 	animation: fadeIn 1.5s ease-in-out;
 
 }
+
 @keyframes fadeInUp {
   from {
     opacity: 0;
