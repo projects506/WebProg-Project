@@ -16,7 +16,8 @@ body{
     background-repeat:no-repeat;
 	background-size:cover;
     overflow: hidden;
-   
+    animation: fadeIn 1.5s ease-in-out;
+
     min-height: 100vh;
 }
 
@@ -172,3 +173,11 @@ button:hover{
     }
     
 }
+@keyframes fadeIn {
+	from {
+	  opacity: 0;
+	}
+	to {
+	  opacity: 1;
+	}
+  }
